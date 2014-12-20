@@ -1,11 +1,17 @@
+=head1
+
+Locale::CLDR::Locales::En::Any::Au - Package for language English
+
+=cut
+
 package Locale::CLDR::Locales::En::Any::Au;
 # This file auto generated from Data\common\main\en_AU.xml
-#	on Sat 29 Nov  2:11:38 pm GMT
+#	on Fri 19 Dec  1:36:32 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.2');
+our $VERSION = version->declare('v0.26.4');
 
 use v5.10;
 use mro 'c3';
@@ -289,6 +295,14 @@ has 'day_period_data' => (
 		my ($self, $type, $time) = @_;
 		SWITCH:
 		for ($type) {
+			if ($_ eq 'gregorian') {
+				return 'noon' if $time == 1200;
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
 			if ($_ eq 'chinese') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
@@ -306,14 +320,6 @@ has 'day_period_data' => (
 			last SWITCH;
 			}
 			if ($_ eq 'japanese') {
-				return 'noon' if $time == 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'am' if $time >= 000
-					&& $time < 1200;
-			last SWITCH;
-			}
-			if ($_ eq 'gregorian') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
@@ -668,13 +674,7 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'generic' => {
-			yMEd => q{E, d/M/y},
-			yMd => q{d/M/y},
-		},
-		'gregorian' => {
-			Ed => q{E d},
-			M => q{LL},
+		'islamic' => {
 			yMEd => q{E, d/M/y},
 			yMd => q{d/M/y},
 		},
@@ -682,7 +682,13 @@ has 'datetime_formats_available_formats' => (
 			yMEd => q{E, d/M/y},
 			yMd => q{d/M/y},
 		},
-		'islamic' => {
+		'generic' => {
+			yMEd => q{E, d/M/y},
+			yMd => q{d/M/y},
+		},
+		'gregorian' => {
+			Ed => q{E d},
+			M => q{LL},
 			yMEd => q{E, d/M/y},
 			yMd => q{d/M/y},
 		},

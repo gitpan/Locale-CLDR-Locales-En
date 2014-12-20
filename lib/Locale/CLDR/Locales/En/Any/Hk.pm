@@ -1,11 +1,17 @@
+=head1
+
+Locale::CLDR::Locales::En::Any::Hk - Package for language English
+
+=cut
+
 package Locale::CLDR::Locales::En::Any::Hk;
 # This file auto generated from Data\common\main\en_HK.xml
-#	on Sat 29 Nov  2:13:41 pm GMT
+#	on Fri 19 Dec  1:38:38 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.2');
+our $VERSION = version->declare('v0.26.4');
 
 use v5.10;
 use mro 'c3';
@@ -34,7 +40,7 @@ has 'day_period_data' => (
 					&& $time < 1200;
 			last SWITCH;
 			}
-			if ($_ eq 'gregorian') {
+			if ($_ eq 'generic') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
@@ -42,7 +48,7 @@ has 'day_period_data' => (
 					&& $time < 1200;
 			last SWITCH;
 			}
-			if ($_ eq 'generic') {
+			if ($_ eq 'gregorian') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
@@ -128,14 +134,6 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'generic' => {
-			MMMEd => q{E, d MMM},
-			MMMMEd => q{E, d MMMM},
-			yyyyMEd => q{E, d/M/y GGGGG},
-			yyyyMMMEd => q{E, d MMM, y G},
-			yyyyMMMd => q{d MMM, y G},
-			yyyyMd => q{d/M/y GGGGG},
-		},
 		'gregorian' => {
 			MEd => q{E, d/M},
 			MMMEd => q{E, d MMM},
@@ -144,6 +142,14 @@ has 'datetime_formats_available_formats' => (
 			yM => q{M/y},
 			yMEd => q{E, d/M/y},
 			yMd => q{d/M/y},
+		},
+		'generic' => {
+			MMMEd => q{E, d MMM},
+			MMMMEd => q{E, d MMMM},
+			yyyyMEd => q{E, d/M/y GGGGG},
+			yyyyMMMEd => q{E, d MMM, y G},
+			yyyyMMMd => q{d MMM, y G},
+			yyyyMd => q{d/M/y GGGGG},
 		},
 	} },
 );
@@ -161,40 +167,6 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'generic' => {
-			MEd => {
-				M => q{E, d/M – E, d/M},
-				d => q{E, d/M – E, d/M},
-			},
-			MMMEd => {
-				M => q{E, d MMM – E, d MMM},
-				d => q{E, d MMM – E, d MMM},
-			},
-			Md => {
-				M => q{d/M – d/M},
-				d => q{d/M – d/M},
-			},
-			yMEd => {
-				M => q{E, d/M/y – E, d/M/y G},
-				d => q{E, d/M/y – E, d/M/y G},
-				y => q{E, d/M/y – E, d/M/y G},
-			},
-			yMMMEd => {
-				M => q{E, d MMM – E, d MMM, y G},
-				d => q{E, d MMM – E, d MMM, y G},
-				y => q{E, d MMM, y – E, d MMM, y G},
-			},
-			yMMMd => {
-				M => q{d MMM – d MMM, y G},
-				d => q{d–d MMM, y G},
-				y => q{d MMM, y – d MMM, y G},
-			},
-			yMd => {
-				M => q{d/M/y – d/M/y G},
-				d => q{d/M/y – d/M/y G},
-				y => q{d/M/y – d/M/y G},
-			},
-		},
 		'gregorian' => {
 			MEd => {
 				M => q{E, d/M – E, d/M},
@@ -227,6 +199,40 @@ has 'datetime_formats_interval' => (
 				M => q{d/M/y – d/M/y},
 				d => q{d/M/y – d/M/y},
 				y => q{d/M/y – d/M/y},
+			},
+		},
+		'generic' => {
+			MEd => {
+				M => q{E, d/M – E, d/M},
+				d => q{E, d/M – E, d/M},
+			},
+			MMMEd => {
+				M => q{E, d MMM – E, d MMM},
+				d => q{E, d MMM – E, d MMM},
+			},
+			Md => {
+				M => q{d/M – d/M},
+				d => q{d/M – d/M},
+			},
+			yMEd => {
+				M => q{E, d/M/y – E, d/M/y G},
+				d => q{E, d/M/y – E, d/M/y G},
+				y => q{E, d/M/y – E, d/M/y G},
+			},
+			yMMMEd => {
+				M => q{E, d MMM – E, d MMM, y G},
+				d => q{E, d MMM – E, d MMM, y G},
+				y => q{E, d MMM, y – E, d MMM, y G},
+			},
+			yMMMd => {
+				M => q{d MMM – d MMM, y G},
+				d => q{d–d MMM, y G},
+				y => q{d MMM, y – d MMM, y G},
+			},
+			yMd => {
+				M => q{d/M/y – d/M/y G},
+				d => q{d/M/y – d/M/y G},
+				y => q{d/M/y – d/M/y G},
 			},
 		},
 	} },

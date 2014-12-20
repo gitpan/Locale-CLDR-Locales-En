@@ -1,11 +1,17 @@
+=head1
+
+Locale::CLDR::Locales::En::Any::Sg - Package for language English
+
+=cut
+
 package Locale::CLDR::Locales::En::Any::Sg;
 # This file auto generated from Data\common\main\en_SG.xml
-#	on Sat 29 Nov  2:13:47 pm GMT
+#	on Fri 19 Dec  1:38:44 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.2');
+our $VERSION = version->declare('v0.26.4');
 
 use v5.10;
 use mro 'c3';

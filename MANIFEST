@@ -96,8 +96,6 @@ lib/Locale/CLDR/Locales/En/Any/Za.pm
 lib/Locale/CLDR/Locales/En/Any/Zm.pm
 lib/Locale/CLDR/Locales/En/Any/Zw.pm
 MANIFEST			This list of files
-t/00-load.t
-t/01-Create-Locale.t
 t/02-Locale-Names.t
 t/03-Measurement-Systems.t
 t/04-Code-Patterns.t

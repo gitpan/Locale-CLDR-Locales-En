@@ -1,11 +1,17 @@
+=head1
+
+Locale::CLDR::Locales::En::Any::Jm - Package for language English
+
+=cut
+
 package Locale::CLDR::Locales::En::Any::Jm;
 # This file auto generated from Data\common\main\en_JM.xml
-#	on Sat 29 Nov  2:13:43 pm GMT
+#	on Fri 19 Dec  1:38:40 am GMT
 # XML file generated 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.2');
+our $VERSION = version->declare('v0.26.4');
 
 use v5.10;
 use mro 'c3';
@@ -38,7 +44,7 @@ has 'day_period_data' => (
 		my ($self, $type, $time) = @_;
 		SWITCH:
 		for ($type) {
-			if ($_ eq 'gregorian') {
+			if ($_ eq 'generic') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
@@ -46,7 +52,7 @@ has 'day_period_data' => (
 					&& $time < 1200;
 			last SWITCH;
 			}
-			if ($_ eq 'generic') {
+			if ($_ eq 'gregorian') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
@@ -113,15 +119,15 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'gregorian' => {
-			MEd => q{E, d/M},
-			Md => q{d/M},
-			yMEd => q{E, d/M/y},
-		},
 		'generic' => {
 			MEd => q{E, d/M},
 			Md => q{d/M},
 			yyyyMEd => q{E, d/M/y G},
+		},
+		'gregorian' => {
+			MEd => q{E, d/M},
+			Md => q{d/M},
+			yMEd => q{E, d/M/y},
 		},
 	} },
 );
@@ -139,26 +145,6 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'gregorian' => {
-			MEd => {
-				M => q{E, d/M - E, d/M},
-				d => q{E, d/M - E, d/M},
-			},
-			Md => {
-				M => q{d/M - d/M},
-				d => q{d/M - d/M},
-			},
-			yMEd => {
-				M => q{E, d/M/y - E, d/M/y},
-				d => q{E, d/M/y - E, d/M/y},
-				y => q{E, d/M/y - E, d/M/y},
-			},
-			yMd => {
-				M => q{d/M/y - d/M/y},
-				d => q{d/M/y - d/M/y},
-				y => q{d/M/y - d/M/y},
-			},
-		},
 		'generic' => {
 			MEd => {
 				M => q{E, d/M - E, d/M},
@@ -177,6 +163,26 @@ has 'datetime_formats_interval' => (
 				M => q{d/M/y - d/M/y G},
 				d => q{d/M/y - d/M/y G},
 				y => q{d/M/y - d/M/y G},
+			},
+		},
+		'gregorian' => {
+			MEd => {
+				M => q{E, d/M - E, d/M},
+				d => q{E, d/M - E, d/M},
+			},
+			Md => {
+				M => q{d/M - d/M},
+				d => q{d/M - d/M},
+			},
+			yMEd => {
+				M => q{E, d/M/y - E, d/M/y},
+				d => q{E, d/M/y - E, d/M/y},
+				y => q{E, d/M/y - E, d/M/y},
+			},
+			yMd => {
+				M => q{d/M/y - d/M/y},
+				d => q{d/M/y - d/M/y},
+				y => q{d/M/y - d/M/y},
 			},
 		},
 	} },

@@ -1,11 +1,17 @@
+=head1
+
+Locale::CLDR::Locales::En::Any::Ca - Package for language English
+
+=cut
+
 package Locale::CLDR::Locales::En::Any::Ca;
 # This file auto generated from Data\common\main\en_CA.xml
-#	on Sat 29 Nov  2:11:42 pm GMT
+#	on Fri 19 Dec  1:36:36 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.2');
+our $VERSION = version->declare('v0.26.4');
 
 use v5.10;
 use mro 'c3';
@@ -130,19 +136,19 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'generic' => {
-			MEd => q{E, MM-dd},
-			Md => q{MM-dd},
-			yyyyM => q{GGGGG y-MM},
-			yyyyMEd => q{E, GGGGG y-MM-dd},
-			yyyyMd => q{GGGGG y-MM-dd},
-		},
 		'gregorian' => {
 			MEd => q{E, MM-dd},
 			Md => q{MM-dd},
 			yM => q{y-MM},
 			yMEd => q{E, y-MM-dd},
 			yMd => q{y-MM-dd},
+		},
+		'generic' => {
+			MEd => q{E, MM-dd},
+			Md => q{MM-dd},
+			yyyyM => q{GGGGG y-MM},
+			yyyyMEd => q{E, GGGGG y-MM-dd},
+			yyyyMd => q{GGGGG y-MM-dd},
 		},
 	} },
 );
@@ -160,30 +166,6 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'generic' => {
-			MEd => {
-				M => q{E, MM-dd – E, MM-dd},
-				d => q{E, MM-dd – E, MM-dd},
-			},
-			Md => {
-				M => q{MM-dd – MM-dd},
-				d => q{MM-dd – MM-dd},
-			},
-			yM => {
-				M => q{GGGGG y-MM – y-MM},
-				y => q{GGGGG y-MM – y-MM},
-			},
-			yMEd => {
-				M => q{E, y-MM-dd – E, y-MM-dd},
-				d => q{E, y-MM-dd – E, y-MM-dd},
-				y => q{E, y-MM-dd – E, y-MM-dd},
-			},
-			yMd => {
-				M => q{GGGGG y-MM-dd – y-MM-dd},
-				d => q{GGGGG y-MM-dd – y-MM-dd},
-				y => q{GGGGG y-MM-dd – y-MM-dd},
-			},
-		},
 		'gregorian' => {
 			MEd => {
 				M => q{E, MM-dd – E, MM-dd},
@@ -206,6 +188,30 @@ has 'datetime_formats_interval' => (
 				M => q{y-MM-dd – y-MM-dd},
 				d => q{y-MM-dd – y-MM-dd},
 				y => q{y-MM-dd – y-MM-dd},
+			},
+		},
+		'generic' => {
+			MEd => {
+				M => q{E, MM-dd – E, MM-dd},
+				d => q{E, MM-dd – E, MM-dd},
+			},
+			Md => {
+				M => q{MM-dd – MM-dd},
+				d => q{MM-dd – MM-dd},
+			},
+			yM => {
+				M => q{GGGGG y-MM – y-MM},
+				y => q{GGGGG y-MM – y-MM},
+			},
+			yMEd => {
+				M => q{E, y-MM-dd – E, y-MM-dd},
+				d => q{E, y-MM-dd – E, y-MM-dd},
+				y => q{E, y-MM-dd – E, y-MM-dd},
+			},
+			yMd => {
+				M => q{GGGGG y-MM-dd – y-MM-dd},
+				d => q{GGGGG y-MM-dd – y-MM-dd},
+				y => q{GGGGG y-MM-dd – y-MM-dd},
 			},
 		},
 	} },

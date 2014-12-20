@@ -1,11 +1,17 @@
+=head1
+
+Locale::CLDR::Locales::En::Any::Zw - Package for language English
+
+=cut
+
 package Locale::CLDR::Locales::En::Any::Zw;
 # This file auto generated from Data\common\main\en_ZW.xml
-#	on Sat 29 Nov  2:13:50 pm GMT
+#	on Fri 19 Dec  1:38:47 am GMT
 # XML file generated 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.2');
+our $VERSION = version->declare('v0.26.4');
 
 use v5.10;
 use mro 'c3';
@@ -26,7 +32,7 @@ has 'day_period_data' => (
 		my ($self, $type, $time) = @_;
 		SWITCH:
 		for ($type) {
-			if ($_ eq 'gregorian') {
+			if ($_ eq 'generic') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
@@ -34,7 +40,7 @@ has 'day_period_data' => (
 					&& $time < 1200;
 			last SWITCH;
 			}
-			if ($_ eq 'generic') {
+			if ($_ eq 'gregorian') {
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
