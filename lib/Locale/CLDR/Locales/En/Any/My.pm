@@ -1,17 +1,11 @@
-=head1
-
-Locale::CLDR::Locales::En::Any::My - Package for language English
-
-=cut
-
 package Locale::CLDR::Locales::En::Any::My;
 # This file auto generated from Data\common\main\en_MY.xml
-#	on Fri 19 Dec  1:38:42 am GMT
+#	on Mon 29 Dec 11:04:31 am GMT
 # XML file generated 2014-05-14 00:17:36 -0500 (Wed, 14 May 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.4');
+our $VERSION = version->declare('v0.26.6');
 
 use v5.10;
 use mro 'c3';

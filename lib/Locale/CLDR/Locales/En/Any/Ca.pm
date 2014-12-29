@@ -1,17 +1,11 @@
-=head1
-
-Locale::CLDR::Locales::En::Any::Ca - Package for language English
-
-=cut
-
 package Locale::CLDR::Locales::En::Any::Ca;
 # This file auto generated from Data\common\main\en_CA.xml
-#	on Fri 19 Dec  1:36:36 am GMT
+#	on Mon 29 Dec 11:02:14 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.4');
+our $VERSION = version->declare('v0.26.6');
 
 use v5.10;
 use mro 'c3';
@@ -62,19 +56,19 @@ has 'day_period_data' => (
 		SWITCH:
 		for ($type) {
 			if ($_ eq 'gregorian') {
+				return 'am' if $time >= 000
+					&& $time < 1200;
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
-				return 'am' if $time >= 000
-					&& $time < 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'generic') {
+				return 'am' if $time >= 000
+					&& $time < 1200;
 				return 'noon' if $time == 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
-				return 'am' if $time >= 000
-					&& $time < 1200;
 			last SWITCH;
 			}
 		}
@@ -136,19 +130,19 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'gregorian' => {
-			MEd => q{E, MM-dd},
-			Md => q{MM-dd},
-			yM => q{y-MM},
-			yMEd => q{E, y-MM-dd},
-			yMd => q{y-MM-dd},
-		},
 		'generic' => {
 			MEd => q{E, MM-dd},
 			Md => q{MM-dd},
 			yyyyM => q{GGGGG y-MM},
 			yyyyMEd => q{E, GGGGG y-MM-dd},
 			yyyyMd => q{GGGGG y-MM-dd},
+		},
+		'gregorian' => {
+			MEd => q{E, MM-dd},
+			Md => q{MM-dd},
+			yM => q{y-MM},
+			yMEd => q{E, y-MM-dd},
+			yMd => q{y-MM-dd},
 		},
 	} },
 );
@@ -166,30 +160,6 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'gregorian' => {
-			MEd => {
-				M => q{E, MM-dd – E, MM-dd},
-				d => q{E, MM-dd – E, MM-dd},
-			},
-			Md => {
-				M => q{MM-dd – MM-dd},
-				d => q{MM-dd – MM-dd},
-			},
-			yM => {
-				M => q{y-MM – y-MM},
-				y => q{y-MM – y-MM},
-			},
-			yMEd => {
-				M => q{E, y-MM-dd – E, y-MM-dd},
-				d => q{E, y-MM-dd – E, y-MM-dd},
-				y => q{E, y-MM-dd – E, y-MM-dd},
-			},
-			yMd => {
-				M => q{y-MM-dd – y-MM-dd},
-				d => q{y-MM-dd – y-MM-dd},
-				y => q{y-MM-dd – y-MM-dd},
-			},
-		},
 		'generic' => {
 			MEd => {
 				M => q{E, MM-dd – E, MM-dd},
@@ -212,6 +182,30 @@ has 'datetime_formats_interval' => (
 				M => q{GGGGG y-MM-dd – y-MM-dd},
 				d => q{GGGGG y-MM-dd – y-MM-dd},
 				y => q{GGGGG y-MM-dd – y-MM-dd},
+			},
+		},
+		'gregorian' => {
+			MEd => {
+				M => q{E, MM-dd – E, MM-dd},
+				d => q{E, MM-dd – E, MM-dd},
+			},
+			Md => {
+				M => q{MM-dd – MM-dd},
+				d => q{MM-dd – MM-dd},
+			},
+			yM => {
+				M => q{y-MM – y-MM},
+				y => q{y-MM – y-MM},
+			},
+			yMEd => {
+				M => q{E, y-MM-dd – E, y-MM-dd},
+				d => q{E, y-MM-dd – E, y-MM-dd},
+				y => q{E, y-MM-dd – E, y-MM-dd},
+			},
+			yMd => {
+				M => q{y-MM-dd – y-MM-dd},
+				d => q{y-MM-dd – y-MM-dd},
+				y => q{y-MM-dd – y-MM-dd},
 			},
 		},
 	} },
