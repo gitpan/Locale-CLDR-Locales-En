@@ -1,11 +1,17 @@
+=head1
+
+Locale::CLDR::Locales::En::Any::Kn - Package for language English
+
+=cut
+
 package Locale::CLDR::Locales::En::Any::Kn;
 # This file auto generated from Data\common\main\en_KN.xml
-#	on Mon 29 Dec 11:04:29 am GMT
+#	on Tue 30 Dec  9:45:38 pm GMT
 # XML file generated 2014-08-01 12:07:43 -0500 (Fri, 01 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.6');
+our $VERSION = version->declare('v0.26.7');
 
 use v5.10;
 use mro 'c3';
