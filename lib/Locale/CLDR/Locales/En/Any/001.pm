@@ -6,12 +6,12 @@ Locale::CLDR::Locales::En::Any::001 - Package for language English
 
 package Locale::CLDR::Locales::En::Any::001;
 # This file auto generated from Data\common\main\en_001.xml
-#	on Tue 30 Dec  9:43:30 pm GMT
+#	on Tue  6 Jan 10:02:52 am GMT
 # XML file generated 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';

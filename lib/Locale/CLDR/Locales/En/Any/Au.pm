@@ -6,12 +6,12 @@ Locale::CLDR::Locales::En::Any::Au - Package for language English
 
 package Locale::CLDR::Locales::En::Any::Au;
 # This file auto generated from Data\common\main\en_AU.xml
-#	on Tue 30 Dec  9:43:31 pm GMT
+#	on Tue  6 Jan 10:02:54 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';
@@ -86,7 +86,7 @@ has 'units' => (
 	default		=> sub { {
 				'long' => {
 					'metric-ton' => {
-						'1' => q(tonnes),
+						'name' => q(tonnes),
 						'one' => q(tonne),
 						'other' => q({0} tonnes),
 					},
@@ -99,7 +99,7 @@ has 'units' => (
 				},
 				'short' => {
 					'micrometer' => {
-						'1' => q(µmetres),
+						'name' => q(µmetres),
 					},
 				},
 			} }
@@ -295,44 +295,44 @@ has 'day_period_data' => (
 		my ($self, $type, $time) = @_;
 		SWITCH:
 		for ($type) {
-			if ($_ eq 'generic') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
-			if ($_ eq 'japanese') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
 			if ($_ eq 'islamic') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'gregorian') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'japanese') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'chinese') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'generic') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 		}
@@ -674,14 +674,6 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'japanese' => {
-			yMEd => q{E, d/M/y},
-			yMd => q{d/M/y},
-		},
-		'generic' => {
-			yMEd => q{E, d/M/y},
-			yMd => q{d/M/y},
-		},
 		'gregorian' => {
 			Ed => q{E d},
 			M => q{LL},
@@ -689,6 +681,14 @@ has 'datetime_formats_available_formats' => (
 			yMd => q{d/M/y},
 		},
 		'islamic' => {
+			yMEd => q{E, d/M/y},
+			yMd => q{d/M/y},
+		},
+		'generic' => {
+			yMEd => q{E, d/M/y},
+			yMd => q{d/M/y},
+		},
+		'japanese' => {
 			yMEd => q{E, d/M/y},
 			yMd => q{d/M/y},
 		},
@@ -708,7 +708,7 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'generic' => {
+		'gregorian' => {
 			M => {
 				M => q{M-M},
 			},
@@ -726,6 +726,10 @@ has 'datetime_formats_interval' => (
 			MMMd => {
 				M => q{d MMM - d MMM},
 				d => q{d-d MMM},
+			},
+			Md => {
+				M => q{d/MM - d/MM},
+				d => q{d/MM - d/MM},
 			},
 			d => {
 				d => q{d-d},
@@ -778,7 +782,7 @@ has 'datetime_formats_interval' => (
 				y => q{d/MM/y - d/MM/y},
 			},
 		},
-		'gregorian' => {
+		'generic' => {
 			M => {
 				M => q{M-M},
 			},
@@ -796,10 +800,6 @@ has 'datetime_formats_interval' => (
 			MMMd => {
 				M => q{d MMM - d MMM},
 				d => q{d-d MMM},
-			},
-			Md => {
-				M => q{d/MM - d/MM},
-				d => q{d/MM - d/MM},
 			},
 			d => {
 				d => q{d-d},

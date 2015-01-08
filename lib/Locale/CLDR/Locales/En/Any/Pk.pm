@@ -6,12 +6,12 @@ Locale::CLDR::Locales::En::Any::Pk - Package for language English
 
 package Locale::CLDR::Locales::En::Any::Pk;
 # This file auto generated from Data\common\main\en_PK.xml
-#	on Tue 30 Dec  9:45:41 pm GMT
+#	on Tue  6 Jan 10:06:25 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';
@@ -84,20 +84,20 @@ has 'day_period_data' => (
 		my ($self, $type, $time) = @_;
 		SWITCH:
 		for ($type) {
-			if ($_ eq 'gregorian') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
+			if ($_ eq 'generic') {
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
-			if ($_ eq 'generic') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
+			if ($_ eq 'gregorian') {
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 		}

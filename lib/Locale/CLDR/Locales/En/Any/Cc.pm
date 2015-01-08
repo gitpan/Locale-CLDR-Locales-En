@@ -6,12 +6,12 @@ Locale::CLDR::Locales::En::Any::Cc - Package for language English
 
 package Locale::CLDR::Locales::En::Any::Cc;
 # This file auto generated from Data\common\main\en_CC.xml
-#	on Tue 30 Dec  9:43:36 pm GMT
+#	on Tue  6 Jan 10:03:01 am GMT
 # XML file generated 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';

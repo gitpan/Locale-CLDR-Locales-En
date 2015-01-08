@@ -6,12 +6,12 @@ Locale::CLDR::Locales::En - Package for language English
 
 package Locale::CLDR::Locales::En;
 # This file auto generated from Data\common\main\en.xml
-#	on Tue 30 Dec  9:41:50 pm GMT
+#	on Tue  6 Jan 10:00:10 am GMT
 # XML file generated 2014-08-31 14:23:52 -0500 (Sun, 31 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';
@@ -2384,1817 +2384,1823 @@ has 'units' => (
 	default		=> sub { {
 				'long' => {
 					'acre' => {
-						'1' => q(acres),
+						'name' => q(acres),
 						'one' => q({0} acre),
 						'other' => q({0} acres),
 					},
 					'acre-foot' => {
-						'1' => q(acre-feet),
+						'name' => q(acre-feet),
 						'one' => q({0} acre-foot),
 						'other' => q({0} acre-feet),
 					},
 					'ampere' => {
-						'1' => q(amperes),
+						'name' => q(amperes),
 						'one' => q({0} ampere),
 						'other' => q({0} amperes),
 					},
 					'arc-minute' => {
-						'1' => q(arcminutes),
+						'name' => q(arcminutes),
 						'one' => q({0} arcminute),
 						'other' => q({0} arcminutes),
 					},
 					'arc-second' => {
-						'1' => q(arcseconds),
+						'name' => q(arcseconds),
 						'one' => q({0} arcsecond),
 						'other' => q({0} arcseconds),
 					},
 					'astronomical-unit' => {
-						'1' => q(astronomical units),
+						'name' => q(astronomical units),
 						'one' => q({0} astronomical unit),
 						'other' => q({0} astronomical units),
 					},
 					'bit' => {
-						'1' => q(bits),
+						'name' => q(bits),
 						'one' => q({0} bit),
 						'other' => q({0} bits),
 					},
 					'bushel' => {
-						'1' => q(bushels),
+						'name' => q(bushels),
 						'one' => q({0} bushel),
 						'other' => q({0} bushels),
 					},
 					'byte' => {
-						'1' => q(bytes),
+						'name' => q(bytes),
 						'one' => q({0} byte),
 						'other' => q({0} bytes),
 					},
 					'calorie' => {
-						'1' => q(calories),
+						'name' => q(calories),
 						'one' => q({0} calorie),
 						'other' => q({0} calories),
 					},
 					'carat' => {
-						'1' => q(carats),
+						'name' => q(carats),
 						'one' => q({0} carat),
 						'other' => q({0} carats),
 					},
 					'celsius' => {
-						'1' => q(degrees Celsius),
+						'name' => q(degrees Celsius),
 						'one' => q({0} degree Celsius),
 						'other' => q({0} degrees Celsius),
 					},
 					'centiliter' => {
-						'1' => q(centiliters),
+						'name' => q(centiliters),
 						'one' => q({0} centiliter),
 						'other' => q({0} centiliters),
 					},
 					'centimeter' => {
-						'1' => q(centimeters),
+						'name' => q(centimeters),
 						'one' => q({0} centimeter),
 						'other' => q({0} centimeters),
 					},
 					'cubic-centimeter' => {
-						'1' => q(cubic centimeters),
+						'name' => q(cubic centimeters),
 						'one' => q({0} cubic centimeter),
 						'other' => q({0} cubic centimeters),
 					},
 					'cubic-foot' => {
-						'1' => q(cubic feet),
+						'name' => q(cubic feet),
 						'one' => q({0} cubic foot),
 						'other' => q({0} cubic feet),
 					},
 					'cubic-inch' => {
-						'1' => q(cubic inches),
+						'name' => q(cubic inches),
 						'one' => q({0} cubic inch),
 						'other' => q({0} cubic inches),
 					},
 					'cubic-kilometer' => {
-						'1' => q(cubic kilometers),
+						'name' => q(cubic kilometers),
 						'one' => q({0} cubic kilometer),
 						'other' => q({0} cubic kilometers),
 					},
 					'cubic-meter' => {
-						'1' => q(cubic meters),
+						'name' => q(cubic meters),
 						'one' => q({0} cubic meter),
 						'other' => q({0} cubic meters),
 					},
 					'cubic-mile' => {
-						'1' => q(cubic miles),
+						'name' => q(cubic miles),
 						'one' => q({0} cubic mile),
 						'other' => q({0} cubic miles),
 					},
 					'cubic-yard' => {
-						'1' => q(cubic yards),
+						'name' => q(cubic yards),
 						'one' => q({0} cubic yard),
 						'other' => q({0} cubic yards),
 					},
 					'cup' => {
-						'1' => q(cups),
+						'name' => q(cups),
 						'one' => q({0} cup),
 						'other' => q({0} cups),
 					},
 					'day' => {
-						'1' => q(days),
+						'name' => q(days),
 						'one' => q({0} day),
 						'other' => q({0} days),
 					},
 					'deciliter' => {
-						'1' => q(deciliters),
+						'name' => q(deciliters),
 						'one' => q({0} deciliter),
 						'other' => q({0} deciliters),
 					},
 					'decimeter' => {
-						'1' => q(decimeters),
+						'name' => q(decimeters),
 						'one' => q({0} decimeter),
 						'other' => q({0} decimeters),
 					},
 					'degree' => {
-						'1' => q(degrees),
+						'name' => q(degrees),
 						'one' => q({0} degree),
 						'other' => q({0} degrees),
 					},
 					'fahrenheit' => {
-						'1' => q(degrees Fahrenheit),
+						'name' => q(degrees Fahrenheit),
 						'one' => q({0} degree Fahrenheit),
 						'other' => q({0} degrees Fahrenheit),
 					},
 					'fathom' => {
-						'1' => q(fathoms),
+						'name' => q(fathoms),
 						'one' => q({0} fathom),
 						'other' => q({0} fathoms),
 					},
 					'fluid-ounce' => {
-						'1' => q(fluid ounces),
+						'name' => q(fluid ounces),
 						'one' => q({0} fluid ounce),
 						'other' => q({0} fluid ounces),
 					},
 					'foodcalorie' => {
-						'1' => q(Calories),
+						'name' => q(Calories),
 						'one' => q({0} Calorie),
 						'other' => q({0} Calories),
 					},
 					'foot' => {
-						'1' => q(feet),
+						'name' => q(feet),
 						'one' => q({0} foot),
 						'other' => q({0} feet),
 					},
 					'furlong' => {
-						'1' => q(furlongs),
+						'name' => q(furlongs),
 						'one' => q({0} furlong),
 						'other' => q({0} furlongs),
 					},
 					'g-force' => {
-						'1' => q(g-force),
+						'name' => q(g-force),
 						'one' => q({0} g-force),
 						'other' => q({0} g-force),
 					},
 					'gallon' => {
-						'1' => q(gallons),
+						'name' => q(gallons),
 						'one' => q({0} gallon),
 						'other' => q({0} gallons),
 					},
 					'gigabit' => {
-						'1' => q(gigabits),
+						'name' => q(gigabits),
 						'one' => q({0} gigabit),
 						'other' => q({0} gigabits),
 					},
 					'gigabyte' => {
-						'1' => q(gigabytes),
+						'name' => q(gigabytes),
 						'one' => q({0} gigabyte),
 						'other' => q({0} gigabytes),
 					},
 					'gigahertz' => {
-						'1' => q(gigahertz),
+						'name' => q(gigahertz),
 						'one' => q({0} gigahertz),
 						'other' => q({0} gigahertz),
 					},
 					'gigawatt' => {
-						'1' => q(gigawatts),
+						'name' => q(gigawatts),
 						'one' => q({0} gigawatt),
 						'other' => q({0} gigawatts),
 					},
 					'gram' => {
-						'1' => q(grams),
+						'name' => q(grams),
 						'one' => q({0} gram),
 						'other' => q({0} grams),
 					},
 					'hectare' => {
-						'1' => q(hectares),
+						'name' => q(hectares),
 						'one' => q({0} hectare),
 						'other' => q({0} hectares),
 					},
 					'hectoliter' => {
-						'1' => q(hectoliters),
+						'name' => q(hectoliters),
 						'one' => q({0} hectoliter),
 						'other' => q({0} hectoliters),
 					},
 					'hectopascal' => {
-						'1' => q(hectopascals),
+						'name' => q(hectopascals),
 						'one' => q({0} hectopascal),
 						'other' => q({0} hectopascals),
 					},
 					'hertz' => {
-						'1' => q(hertz),
+						'name' => q(hertz),
 						'one' => q({0} hertz),
 						'other' => q({0} hertz),
 					},
 					'horsepower' => {
-						'1' => q(horsepower),
+						'name' => q(horsepower),
 						'one' => q({0} horsepower),
 						'other' => q({0} horsepower),
 					},
 					'hour' => {
-						'1' => q({0} per hour),
+						'name' => q(hours),
 						'one' => q({0} hour),
 						'other' => q({0} hours),
+						'per' => q({0} per hour),
 					},
 					'inch' => {
-						'1' => q(inches),
+						'name' => q(inches),
 						'one' => q({0} inch),
 						'other' => q({0} inches),
 					},
 					'inch-hg' => {
-						'1' => q(inches of mercury),
+						'name' => q(inches of mercury),
 						'one' => q({0} inch of mercury),
 						'other' => q({0} inches of mercury),
 					},
 					'joule' => {
-						'1' => q(joules),
+						'name' => q(joules),
 						'one' => q({0} joule),
 						'other' => q({0} joules),
 					},
 					'karat' => {
-						'1' => q(karats),
+						'name' => q(karats),
 						'one' => q({0} karat),
 						'other' => q({0} karats),
 					},
 					'kelvin' => {
-						'1' => q(kelvins),
+						'name' => q(kelvins),
 						'one' => q({0} kelvin),
 						'other' => q({0} kelvins),
 					},
 					'kilobit' => {
-						'1' => q(kilobits),
+						'name' => q(kilobits),
 						'one' => q({0} kilobit),
 						'other' => q({0} kilobits),
 					},
 					'kilobyte' => {
-						'1' => q(kilobytes),
+						'name' => q(kilobytes),
 						'one' => q({0} kilobyte),
 						'other' => q({0} kilobytes),
 					},
 					'kilocalorie' => {
-						'1' => q(kilocalories),
+						'name' => q(kilocalories),
 						'one' => q({0} kilocalorie),
 						'other' => q({0} kilocalories),
 					},
 					'kilogram' => {
-						'1' => q(kilograms),
+						'name' => q(kilograms),
 						'one' => q({0} kilogram),
 						'other' => q({0} kilograms),
 					},
 					'kilohertz' => {
-						'1' => q(kilohertz),
+						'name' => q(kilohertz),
 						'one' => q({0} kilohertz),
 						'other' => q({0} kilohertz),
 					},
 					'kilojoule' => {
-						'1' => q(kilojoules),
+						'name' => q(kilojoules),
 						'one' => q({0} kilojoule),
 						'other' => q({0} kilojoules),
 					},
 					'kilometer' => {
-						'1' => q(kilometers),
+						'name' => q(kilometers),
 						'one' => q({0} kilometer),
 						'other' => q({0} kilometers),
 					},
 					'kilometer-per-hour' => {
-						'1' => q(kilometers per hour),
+						'name' => q(kilometers per hour),
 						'one' => q({0} kilometer per hour),
 						'other' => q({0} kilometers per hour),
 					},
 					'kilowatt' => {
-						'1' => q(kilowatts),
+						'name' => q(kilowatts),
 						'one' => q({0} kilowatt),
 						'other' => q({0} kilowatts),
 					},
 					'kilowatt-hour' => {
-						'1' => q(kilowatt-hours),
+						'name' => q(kilowatt-hours),
 						'one' => q({0} kilowatt hour),
 						'other' => q({0} kilowatt-hours),
 					},
 					'light-year' => {
-						'1' => q(light years),
+						'name' => q(light years),
 						'one' => q({0} light year),
 						'other' => q({0} light years),
 					},
 					'liter' => {
-						'1' => q(liters),
+						'name' => q(liters),
 						'one' => q({0} liter),
 						'other' => q({0} liters),
 					},
 					'liter-per-kilometer' => {
-						'1' => q(liters per kilometer),
+						'name' => q(liters per kilometer),
 						'one' => q({0} liter per kilometer),
 						'other' => q({0} liters per kilometer),
 					},
 					'lux' => {
-						'1' => q(lux),
+						'name' => q(lux),
 						'one' => q({0} lux),
 						'other' => q({0} lux),
 					},
 					'megabit' => {
-						'1' => q(megabits),
+						'name' => q(megabits),
 						'one' => q({0} megabit),
 						'other' => q({0} megabits),
 					},
 					'megabyte' => {
-						'1' => q(megabytes),
+						'name' => q(megabytes),
 						'one' => q({0} megabyte),
 						'other' => q({0} megabytes),
 					},
 					'megahertz' => {
-						'1' => q(megahertz),
+						'name' => q(megahertz),
 						'one' => q({0} megahertz),
 						'other' => q({0} megahertz),
 					},
 					'megaliter' => {
-						'1' => q(megaliters),
+						'name' => q(megaliters),
 						'one' => q({0} megaliter),
 						'other' => q({0} megaliters),
 					},
 					'megawatt' => {
-						'1' => q(megawatts),
+						'name' => q(megawatts),
 						'one' => q({0} megawatt),
 						'other' => q({0} megawatts),
 					},
 					'meter' => {
-						'1' => q(meters),
+						'name' => q(meters),
 						'one' => q({0} meter),
 						'other' => q({0} meters),
 					},
 					'meter-per-second' => {
-						'1' => q(meters per second),
+						'name' => q(meters per second),
 						'one' => q({0} meter per second),
 						'other' => q({0} meters per second),
 					},
 					'meter-per-second-squared' => {
-						'1' => q(meters per second squared),
+						'name' => q(meters per second squared),
 						'one' => q({0} meter per second squared),
 						'other' => q({0} meters per second squared),
 					},
 					'metric-ton' => {
-						'1' => q(metric tons),
+						'name' => q(metric tons),
 						'one' => q({0} metric ton),
 						'other' => q({0} metric tons),
 					},
 					'microgram' => {
-						'1' => q(micrograms),
+						'name' => q(micrograms),
 						'one' => q({0} microgram),
 						'other' => q({0} micrograms),
 					},
 					'micrometer' => {
-						'1' => q(micrometers),
+						'name' => q(micrometers),
 						'one' => q({0} micrometer),
 						'other' => q({0} micrometers),
 					},
 					'microsecond' => {
-						'1' => q(microseconds),
+						'name' => q(microseconds),
 						'one' => q({0} microsecond),
 						'other' => q({0} microseconds),
 					},
 					'mile' => {
-						'1' => q(miles),
+						'name' => q(miles),
 						'one' => q({0} mile),
 						'other' => q({0} miles),
 					},
 					'mile-per-gallon' => {
-						'1' => q(miles per gallon),
+						'name' => q(miles per gallon),
 						'one' => q({0} mile per gallon),
 						'other' => q({0} miles per gallon),
 					},
 					'mile-per-hour' => {
-						'1' => q(miles per hour),
+						'name' => q(miles per hour),
 						'one' => q({0} mile per hour),
 						'other' => q({0} miles per hour),
 					},
 					'milliampere' => {
-						'1' => q(milliamperes),
+						'name' => q(milliamperes),
 						'one' => q({0} milliampere),
 						'other' => q({0} milliamperes),
 					},
 					'millibar' => {
-						'1' => q(millibars),
+						'name' => q(millibars),
 						'one' => q({0} millibar),
 						'other' => q({0} millibars),
 					},
 					'milligram' => {
-						'1' => q(milligrams),
+						'name' => q(milligrams),
 						'one' => q({0} milligram),
 						'other' => q({0} milligrams),
 					},
 					'milliliter' => {
-						'1' => q(milliliters),
+						'name' => q(milliliters),
 						'one' => q({0} milliliter),
 						'other' => q({0} milliliters),
 					},
 					'millimeter' => {
-						'1' => q(millimeters),
+						'name' => q(millimeters),
 						'one' => q({0} millimeter),
 						'other' => q({0} millimeters),
 					},
 					'millimeter-of-mercury' => {
-						'1' => q(millimeters of mercury),
+						'name' => q(millimeters of mercury),
 						'one' => q({0} millimeter of mercury),
 						'other' => q({0} millimeters of mercury),
 					},
 					'millisecond' => {
-						'1' => q(milliseconds),
+						'name' => q(milliseconds),
 						'one' => q({0} millisecond),
 						'other' => q({0} milliseconds),
 					},
 					'milliwatt' => {
-						'1' => q(milliwatts),
+						'name' => q(milliwatts),
 						'one' => q({0} milliwatt),
 						'other' => q({0} milliwatts),
 					},
 					'minute' => {
-						'1' => q(minutes),
+						'name' => q(minutes),
 						'one' => q({0} minute),
 						'other' => q({0} minutes),
 					},
 					'month' => {
-						'1' => q(months),
+						'name' => q(months),
 						'one' => q({0} month),
 						'other' => q({0} months),
 					},
 					'nanometer' => {
-						'1' => q(nanometers),
+						'name' => q(nanometers),
 						'one' => q({0} nanometer),
 						'other' => q({0} nanometers),
 					},
 					'nanosecond' => {
-						'1' => q(nanoseconds),
+						'name' => q(nanoseconds),
 						'one' => q({0} nanosecond),
 						'other' => q({0} nanoseconds),
 					},
 					'nautical-mile' => {
-						'1' => q(nautical miles),
+						'name' => q(nautical miles),
 						'one' => q({0} nautical mile),
 						'other' => q({0} nautical miles),
 					},
 					'ohm' => {
-						'1' => q(ohms),
+						'name' => q(ohms),
 						'one' => q({0} ohm),
 						'other' => q({0} ohms),
 					},
 					'ounce' => {
-						'1' => q(ounces),
+						'name' => q(ounces),
 						'one' => q({0} ounce),
 						'other' => q({0} ounces),
 					},
 					'ounce-troy' => {
-						'1' => q(troy ounces),
+						'name' => q(troy ounces),
 						'one' => q({0} troy ounce),
 						'other' => q({0} troy ounces),
 					},
 					'parsec' => {
-						'1' => q(parsecs),
+						'name' => q(parsecs),
 						'one' => q({0} parsec),
 						'other' => q({0} parsecs),
 					},
 					'per' => {
-						'1' => q({0} per {1}),
+						'' => q({0} per {1}),
 					},
 					'picometer' => {
-						'1' => q(picometers),
+						'name' => q(picometers),
 						'one' => q({0} picometer),
 						'other' => q({0} picometers),
 					},
 					'pint' => {
-						'1' => q(pints),
+						'name' => q(pints),
 						'one' => q({0} pint),
 						'other' => q({0} pints),
 					},
 					'pound' => {
-						'1' => q(pounds),
+						'name' => q(pounds),
 						'one' => q({0} pound),
 						'other' => q({0} pounds),
 					},
 					'pound-per-square-inch' => {
-						'1' => q(pounds per square inch),
+						'name' => q(pounds per square inch),
 						'one' => q({0} pound per square inch),
 						'other' => q({0} pounds per square inch),
 					},
 					'quart' => {
-						'1' => q(quarts),
+						'name' => q(quarts),
 						'one' => q({0} quart),
 						'other' => q({0} quarts),
 					},
 					'radian' => {
-						'1' => q(radians),
+						'name' => q(radians),
 						'one' => q({0} radian),
 						'other' => q({0} radians),
 					},
 					'second' => {
-						'1' => q({0} per second),
+						'name' => q(seconds),
 						'one' => q({0} second),
 						'other' => q({0} seconds),
+						'per' => q({0} per second),
 					},
 					'square-centimeter' => {
-						'1' => q(square centimeters),
+						'name' => q(square centimeters),
 						'one' => q({0} square centimeter),
 						'other' => q({0} square centimeters),
 					},
 					'square-foot' => {
-						'1' => q(square feet),
+						'name' => q(square feet),
 						'one' => q({0} square foot),
 						'other' => q({0} square feet),
 					},
 					'square-inch' => {
-						'1' => q(square inches),
+						'name' => q(square inches),
 						'one' => q({0} square inch),
 						'other' => q({0} square inches),
 					},
 					'square-kilometer' => {
-						'1' => q(square kilometers),
+						'name' => q(square kilometers),
 						'one' => q({0} square kilometer),
 						'other' => q({0} square kilometers),
 					},
 					'square-meter' => {
-						'1' => q(square meters),
+						'name' => q(square meters),
 						'one' => q({0} square meter),
 						'other' => q({0} square meters),
 					},
 					'square-mile' => {
-						'1' => q(square miles),
+						'name' => q(square miles),
 						'one' => q({0} square mile),
 						'other' => q({0} square miles),
 					},
 					'square-yard' => {
-						'1' => q(square yards),
+						'name' => q(square yards),
 						'one' => q({0} square yard),
 						'other' => q({0} square yards),
 					},
 					'stone' => {
-						'1' => q(stones),
+						'name' => q(stones),
 						'one' => q({0} stone),
 						'other' => q({0} stones),
 					},
 					'tablespoon' => {
-						'1' => q(tablespoons),
+						'name' => q(tablespoons),
 						'one' => q({0} tablespoon),
 						'other' => q({0} tablespoons),
 					},
 					'teaspoon' => {
-						'1' => q(teaspoons),
+						'name' => q(teaspoons),
 						'one' => q({0} teaspoon),
 						'other' => q({0} teaspoons),
 					},
 					'terabit' => {
-						'1' => q(terabits),
+						'name' => q(terabits),
 						'one' => q({0} terabit),
 						'other' => q({0} terabits),
 					},
 					'terabyte' => {
-						'1' => q(terabytes),
+						'name' => q(terabytes),
 						'one' => q({0} terabyte),
 						'other' => q({0} terabytes),
 					},
 					'ton' => {
-						'1' => q(tons),
+						'name' => q(tons),
 						'one' => q({0} ton),
 						'other' => q({0} tons),
 					},
 					'volt' => {
-						'1' => q(volts),
+						'name' => q(volts),
 						'one' => q({0} volt),
 						'other' => q({0} volts),
 					},
 					'watt' => {
-						'1' => q(watts),
+						'name' => q(watts),
 						'one' => q({0} watt),
 						'other' => q({0} watts),
 					},
 					'week' => {
-						'1' => q(weeks),
+						'name' => q(weeks),
 						'one' => q({0} week),
 						'other' => q({0} weeks),
 					},
 					'yard' => {
-						'1' => q(yards),
+						'name' => q(yards),
 						'one' => q({0} yard),
 						'other' => q({0} yards),
 					},
 					'year' => {
-						'1' => q(years),
+						'name' => q(years),
 						'one' => q({0} year),
 						'other' => q({0} years),
 					},
 				},
 				'narrow' => {
 					'acre' => {
-						'1' => q(acre),
+						'name' => q(acre),
 						'one' => q({0}ac),
 						'other' => q({0}ac),
 					},
 					'acre-foot' => {
-						'1' => q(acre ft),
+						'name' => q(acre ft),
 						'one' => q({0}ac ft),
 						'other' => q({0}ac ft),
 					},
 					'ampere' => {
-						'1' => q(amp),
+						'name' => q(amp),
 						'one' => q({0}A),
 						'other' => q({0}A),
 					},
 					'arc-minute' => {
-						'1' => q(arcmin),
+						'name' => q(arcmin),
 						'one' => q({0}′),
 						'other' => q({0}′),
 					},
 					'arc-second' => {
-						'1' => q(arcsec),
+						'name' => q(arcsec),
 						'one' => q({0}″),
 						'other' => q({0}″),
 					},
 					'astronomical-unit' => {
-						'1' => q(au),
+						'name' => q(au),
 						'one' => q({0}au),
 						'other' => q({0}au),
 					},
 					'bit' => {
-						'1' => q(bit),
+						'name' => q(bit),
 						'one' => q({0}bit),
 						'other' => q({0}bit),
 					},
 					'bushel' => {
-						'1' => q(bushel),
+						'name' => q(bushel),
 						'one' => q({0}bu),
 						'other' => q({0}bu),
 					},
 					'byte' => {
-						'1' => q(byte),
+						'name' => q(byte),
 						'one' => q({0}byte),
 						'other' => q({0}byte),
 					},
 					'calorie' => {
-						'1' => q(cal),
+						'name' => q(cal),
 						'one' => q({0}cal),
 						'other' => q({0}cal),
 					},
 					'carat' => {
-						'1' => q(carat),
+						'name' => q(carat),
 						'one' => q({0}CD),
 						'other' => q({0}CD),
 					},
 					'celsius' => {
-						'1' => q(°C),
+						'name' => q(°C),
 						'one' => q({0}°C),
 						'other' => q({0}°C),
 					},
 					'centiliter' => {
-						'1' => q(cL),
+						'name' => q(cL),
 						'one' => q({0}cL),
 						'other' => q({0}cL),
 					},
 					'centimeter' => {
-						'1' => q(cm),
+						'name' => q(cm),
 						'one' => q({0}cm),
 						'other' => q({0}cm),
 					},
 					'cubic-centimeter' => {
-						'1' => q(cm³),
+						'name' => q(cm³),
 						'one' => q({0}cm³),
 						'other' => q({0}cm³),
 					},
 					'cubic-foot' => {
-						'1' => q(ft³),
+						'name' => q(ft³),
 						'one' => q({0}ft³),
 						'other' => q({0}ft³),
 					},
 					'cubic-inch' => {
-						'1' => q(in³),
+						'name' => q(in³),
 						'one' => q({0}in³),
 						'other' => q({0}in³),
 					},
 					'cubic-kilometer' => {
-						'1' => q(km³),
+						'name' => q(km³),
 						'one' => q({0}km³),
 						'other' => q({0}km³),
 					},
 					'cubic-meter' => {
-						'1' => q(m³),
+						'name' => q(m³),
 						'one' => q({0}m³),
 						'other' => q({0}m³),
 					},
 					'cubic-mile' => {
-						'1' => q(mi³),
+						'name' => q(mi³),
 						'one' => q({0}mi³),
 						'other' => q({0}mi³),
 					},
 					'cubic-yard' => {
-						'1' => q(yd³),
+						'name' => q(yd³),
 						'one' => q({0}yd³),
 						'other' => q({0}yd³),
 					},
 					'cup' => {
-						'1' => q(cup),
+						'name' => q(cup),
 						'one' => q({0}c),
 						'other' => q({0}c),
 					},
 					'day' => {
-						'1' => q(day),
+						'name' => q(day),
 						'one' => q({0}d),
 						'other' => q({0}d),
 					},
 					'deciliter' => {
-						'1' => q(dL),
+						'name' => q(dL),
 						'one' => q({0}dL),
 						'other' => q({0}dL),
 					},
 					'decimeter' => {
-						'1' => q(dm),
+						'name' => q(dm),
 						'one' => q({0}dm),
 						'other' => q({0}dm),
 					},
 					'degree' => {
-						'1' => q(deg),
+						'name' => q(deg),
 						'one' => q({0}°),
 						'other' => q({0}°),
 					},
 					'fahrenheit' => {
-						'1' => q(°F),
+						'name' => q(°F),
 						'one' => q({0}°),
 						'other' => q({0}°),
 					},
 					'fathom' => {
-						'1' => q(fathom),
+						'name' => q(fathom),
 						'one' => q({0}fm),
 						'other' => q({0}fm),
 					},
 					'fluid-ounce' => {
-						'1' => q(fl oz),
+						'name' => q(fl oz),
 						'one' => q({0}fl oz),
 						'other' => q({0}fl oz),
 					},
 					'foodcalorie' => {
-						'1' => q(Cal),
+						'name' => q(Cal),
 						'one' => q({0}Cal),
 						'other' => q({0}Cal),
 					},
 					'foot' => {
-						'1' => q(ft),
+						'name' => q(ft),
 						'one' => q({0}′),
 						'other' => q({0}′),
 					},
 					'furlong' => {
-						'1' => q(furlong),
+						'name' => q(furlong),
 						'one' => q({0}fur),
 						'other' => q({0}fur),
 					},
 					'g-force' => {
-						'1' => q(g-force),
+						'name' => q(g-force),
 						'one' => q({0}G),
 						'other' => q({0}Gs),
 					},
 					'gallon' => {
-						'1' => q(gal),
+						'name' => q(gal),
 						'one' => q({0}gal),
 						'other' => q({0}gal),
 					},
 					'gigabit' => {
-						'1' => q(Gbit),
+						'name' => q(Gbit),
 						'one' => q({0}Gb),
 						'other' => q({0}Gb),
 					},
 					'gigabyte' => {
-						'1' => q(GByte),
+						'name' => q(GByte),
 						'one' => q({0}GB),
 						'other' => q({0}GB),
 					},
 					'gigahertz' => {
-						'1' => q(GHz),
+						'name' => q(GHz),
 						'one' => q({0}GHz),
 						'other' => q({0}GHz),
 					},
 					'gigawatt' => {
-						'1' => q(GW),
+						'name' => q(GW),
 						'one' => q({0}GW),
 						'other' => q({0}GW),
 					},
 					'gram' => {
-						'1' => q(gram),
+						'name' => q(gram),
 						'one' => q({0}g),
 						'other' => q({0}g),
 					},
 					'hectare' => {
-						'1' => q(hectare),
+						'name' => q(hectare),
 						'one' => q({0}ha),
 						'other' => q({0}ha),
 					},
 					'hectoliter' => {
-						'1' => q(hL),
+						'name' => q(hL),
 						'one' => q({0}hL),
 						'other' => q({0}hL),
 					},
 					'hectopascal' => {
-						'1' => q(hPa),
+						'name' => q(hPa),
 						'one' => q({0}hPa),
 						'other' => q({0}hPa),
 					},
 					'hertz' => {
-						'1' => q(Hz),
+						'name' => q(Hz),
 						'one' => q({0}Hz),
 						'other' => q({0}Hz),
 					},
 					'horsepower' => {
-						'1' => q(hp),
+						'name' => q(hp),
 						'one' => q({0}hp),
 						'other' => q({0}hp),
 					},
 					'hour' => {
-						'1' => q({0}/h),
+						'name' => q(hour),
 						'one' => q({0}h),
 						'other' => q({0}h),
+						'per' => q({0}/h),
 					},
 					'inch' => {
-						'1' => q(in),
+						'name' => q(in),
 						'one' => q({0}″),
 						'other' => q({0}″),
 					},
 					'inch-hg' => {
-						'1' => q(″ Hg),
+						'name' => q(″ Hg),
 						'one' => q({0}″ Hg),
 						'other' => q({0}″ Hg),
 					},
 					'joule' => {
-						'1' => q(joule),
+						'name' => q(joule),
 						'one' => q({0}J),
 						'other' => q({0}J),
 					},
 					'karat' => {
-						'1' => q(karat),
+						'name' => q(karat),
 						'one' => q({0}kt),
 						'other' => q({0}kt),
 					},
 					'kelvin' => {
-						'1' => q(K),
+						'name' => q(K),
 						'one' => q({0}K),
 						'other' => q({0}K),
 					},
 					'kilobit' => {
-						'1' => q(kbit),
+						'name' => q(kbit),
 						'one' => q({0}kb),
 						'other' => q({0}kb),
 					},
 					'kilobyte' => {
-						'1' => q(kByte),
+						'name' => q(kByte),
 						'one' => q({0}kB),
 						'other' => q({0}kB),
 					},
 					'kilocalorie' => {
-						'1' => q(kcal),
+						'name' => q(kcal),
 						'one' => q({0}kcal),
 						'other' => q({0}kcal),
 					},
 					'kilogram' => {
-						'1' => q(kg),
+						'name' => q(kg),
 						'one' => q({0}kg),
 						'other' => q({0}kg),
 					},
 					'kilohertz' => {
-						'1' => q(kHz),
+						'name' => q(kHz),
 						'one' => q({0}kHz),
 						'other' => q({0}kHz),
 					},
 					'kilojoule' => {
-						'1' => q(kJ),
+						'name' => q(kJ),
 						'one' => q({0}kJ),
 						'other' => q({0}kJ),
 					},
 					'kilometer' => {
-						'1' => q(km),
+						'name' => q(km),
 						'one' => q({0}km),
 						'other' => q({0}km),
 					},
 					'kilometer-per-hour' => {
-						'1' => q(km/hr),
+						'name' => q(km/hr),
 						'one' => q({0}kph),
 						'other' => q({0}kph),
 					},
 					'kilowatt' => {
-						'1' => q(kW),
+						'name' => q(kW),
 						'one' => q({0}kW),
 						'other' => q({0}kW),
 					},
 					'kilowatt-hour' => {
-						'1' => q(kWh),
+						'name' => q(kWh),
 						'one' => q({0}kWh),
 						'other' => q({0}kWh),
 					},
 					'light-year' => {
-						'1' => q(ly),
+						'name' => q(ly),
 						'one' => q({0}ly),
 						'other' => q({0}ly),
 					},
 					'liter' => {
-						'1' => q(liter),
+						'name' => q(liter),
 						'one' => q({0}l),
 						'other' => q({0}l),
 					},
 					'liter-per-kilometer' => {
-						'1' => q(L/km),
+						'name' => q(L/km),
 						'one' => q({0}L/km),
 						'other' => q({0}L/km),
 					},
 					'lux' => {
-						'1' => q(lux),
+						'name' => q(lux),
 						'one' => q({0}lx),
 						'other' => q({0}lx),
 					},
 					'megabit' => {
-						'1' => q(Mbit),
+						'name' => q(Mbit),
 						'one' => q({0}Mb),
 						'other' => q({0}Mb),
 					},
 					'megabyte' => {
-						'1' => q(MByte),
+						'name' => q(MByte),
 						'one' => q({0}MB),
 						'other' => q({0}MB),
 					},
 					'megahertz' => {
-						'1' => q(MHz),
+						'name' => q(MHz),
 						'one' => q({0}MHz),
 						'other' => q({0}MHz),
 					},
 					'megaliter' => {
-						'1' => q(ML),
+						'name' => q(ML),
 						'one' => q({0}ML),
 						'other' => q({0}ML),
 					},
 					'megawatt' => {
-						'1' => q(MW),
+						'name' => q(MW),
 						'one' => q({0}MW),
 						'other' => q({0}MW),
 					},
 					'meter' => {
-						'1' => q(meter),
+						'name' => q(meter),
 						'one' => q({0}m),
 						'other' => q({0}m),
 					},
 					'meter-per-second' => {
-						'1' => q(m/s),
+						'name' => q(m/s),
 						'one' => q({0}m/s),
 						'other' => q({0}m/s),
 					},
 					'meter-per-second-squared' => {
-						'1' => q(m/s²),
+						'name' => q(m/s²),
 						'one' => q({0}m/s²),
 						'other' => q({0}m/s²),
 					},
 					'metric-ton' => {
-						'1' => q(t),
+						'name' => q(t),
 						'one' => q({0}t),
 						'other' => q({0}t),
 					},
 					'microgram' => {
-						'1' => q(µg),
+						'name' => q(µg),
 						'one' => q({0}µg),
 						'other' => q({0}µg),
 					},
 					'micrometer' => {
-						'1' => q(µm),
+						'name' => q(µm),
 						'one' => q({0}µm),
 						'other' => q({0}µm),
 					},
 					'microsecond' => {
-						'1' => q(μsec),
+						'name' => q(μsec),
 						'one' => q({0}μs),
 						'other' => q({0}μs),
 					},
 					'mile' => {
-						'1' => q(mi),
+						'name' => q(mi),
 						'one' => q({0}mi),
 						'other' => q({0}mi),
 					},
 					'mile-per-gallon' => {
-						'1' => q(mpg),
+						'name' => q(mpg),
 						'one' => q({0}mpg),
 						'other' => q({0}mpg),
 					},
 					'mile-per-hour' => {
-						'1' => q(mi/hr),
+						'name' => q(mi/hr),
 						'one' => q({0}mph),
 						'other' => q({0}mph),
 					},
 					'milliampere' => {
-						'1' => q(mA),
+						'name' => q(mA),
 						'one' => q({0}mA),
 						'other' => q({0}mA),
 					},
 					'millibar' => {
-						'1' => q(mbar),
+						'name' => q(mbar),
 						'one' => q({0}mb),
 						'other' => q({0}mb),
 					},
 					'milligram' => {
-						'1' => q(mg),
+						'name' => q(mg),
 						'one' => q({0}mg),
 						'other' => q({0}mg),
 					},
 					'milliliter' => {
-						'1' => q(mL),
+						'name' => q(mL),
 						'one' => q({0}mL),
 						'other' => q({0}mL),
 					},
 					'millimeter' => {
-						'1' => q(mm),
+						'name' => q(mm),
 						'one' => q({0}mm),
 						'other' => q({0}mm),
 					},
 					'millimeter-of-mercury' => {
-						'1' => q(mm Hg),
+						'name' => q(mm Hg),
 						'one' => q({0}mm Hg),
 						'other' => q({0}mm Hg),
 					},
 					'millisecond' => {
-						'1' => q(msec),
+						'name' => q(msec),
 						'one' => q({0}ms),
 						'other' => q({0}ms),
 					},
 					'milliwatt' => {
-						'1' => q(mW),
+						'name' => q(mW),
 						'one' => q({0}mW),
 						'other' => q({0}mW),
 					},
 					'minute' => {
-						'1' => q(min),
+						'name' => q(min),
 						'one' => q({0}m),
 						'other' => q({0}m),
 					},
 					'month' => {
-						'1' => q(month),
+						'name' => q(month),
 						'one' => q({0}m),
 						'other' => q({0}m),
 					},
 					'nanometer' => {
-						'1' => q(nm),
+						'name' => q(nm),
 						'one' => q({0}nm),
 						'other' => q({0}nm),
 					},
 					'nanosecond' => {
-						'1' => q(ns),
+						'name' => q(ns),
 						'one' => q({0}ns),
 						'other' => q({0}ns),
 					},
 					'nautical-mile' => {
-						'1' => q(nmi),
+						'name' => q(nmi),
 						'one' => q({0}nmi),
 						'other' => q({0}nmi),
 					},
 					'ohm' => {
-						'1' => q(ohm),
+						'name' => q(ohm),
 						'one' => q({0}Ω),
 						'other' => q({0}Ω),
 					},
 					'ounce' => {
-						'1' => q(oz),
+						'name' => q(oz),
 						'one' => q({0}oz),
 						'other' => q({0}oz),
 					},
 					'ounce-troy' => {
-						'1' => q(oz t),
+						'name' => q(oz t),
 						'one' => q({0}oz t),
 						'other' => q({0}oz t),
 					},
 					'parsec' => {
-						'1' => q(parsec),
+						'name' => q(parsec),
 						'one' => q({0}pc),
 						'other' => q({0}pc),
 					},
 					'picometer' => {
-						'1' => q(pm),
+						'name' => q(pm),
 						'one' => q({0}pm),
 						'other' => q({0}pm),
 					},
 					'pint' => {
-						'1' => q(pt),
+						'name' => q(pt),
 						'one' => q({0}pt),
 						'other' => q({0}pt),
 					},
 					'pound' => {
-						'1' => q(lb),
+						'name' => q(lb),
 						'one' => q({0}#),
 						'other' => q({0}#),
 					},
 					'pound-per-square-inch' => {
-						'1' => q(psi),
+						'name' => q(psi),
 						'one' => q({0}psi),
 						'other' => q({0}psi),
 					},
 					'quart' => {
-						'1' => q(qt),
+						'name' => q(qt),
 						'one' => q({0}qt),
 						'other' => q({0}qt),
 					},
 					'radian' => {
-						'1' => q(rad),
+						'name' => q(rad),
 						'one' => q({0}rad),
 						'other' => q({0}rad),
 					},
 					'second' => {
-						'1' => q({0}/s),
+						'name' => q(sec),
 						'one' => q({0}s),
 						'other' => q({0}s),
+						'per' => q({0}/s),
 					},
 					'square-centimeter' => {
-						'1' => q(cm²),
+						'name' => q(cm²),
 						'one' => q({0}cm²),
 						'other' => q({0}cm²),
 					},
 					'square-foot' => {
-						'1' => q(ft²),
+						'name' => q(ft²),
 						'one' => q({0}ft²),
 						'other' => q({0}ft²),
 					},
 					'square-inch' => {
-						'1' => q(in²),
+						'name' => q(in²),
 						'one' => q({0}in²),
 						'other' => q({0}in²),
 					},
 					'square-mile' => {
-						'1' => q(mi²),
+						'name' => q(mi²),
 						'one' => q({0}mi²),
 						'other' => q({0}mi²),
 					},
 					'square-yard' => {
-						'1' => q(yd²),
+						'name' => q(yd²),
 						'one' => q({0}yd²),
 						'other' => q({0}yd²),
 					},
 					'stone' => {
-						'1' => q(stone),
+						'name' => q(stone),
 						'one' => q({0}st),
 						'other' => q({0}st),
 					},
 					'tablespoon' => {
-						'1' => q(tbsp),
+						'name' => q(tbsp),
 						'one' => q({0}tbsp),
 						'other' => q({0}tbsp),
 					},
 					'teaspoon' => {
-						'1' => q(tsp),
+						'name' => q(tsp),
 						'one' => q({0}tsp),
 						'other' => q({0}tsp),
 					},
 					'terabit' => {
-						'1' => q(Tbit),
+						'name' => q(Tbit),
 						'one' => q({0}Tb),
 						'other' => q({0}Tb),
 					},
 					'terabyte' => {
-						'1' => q(TByte),
+						'name' => q(TByte),
 						'one' => q({0}TB),
 						'other' => q({0}TB),
 					},
 					'ton' => {
-						'1' => q(ton),
+						'name' => q(ton),
 						'one' => q({0}tn),
 						'other' => q({0}tn),
 					},
 					'volt' => {
-						'1' => q(volt),
+						'name' => q(volt),
 						'one' => q({0}V),
 						'other' => q({0}V),
 					},
 					'watt' => {
-						'1' => q(watt),
+						'name' => q(watt),
 						'one' => q({0}W),
 						'other' => q({0}W),
 					},
 					'week' => {
-						'1' => q(wk),
+						'name' => q(wk),
 						'one' => q({0}w),
 						'other' => q({0}w),
 					},
 					'yard' => {
-						'1' => q(yd),
+						'name' => q(yd),
 						'one' => q({0}yd),
 						'other' => q({0}yd),
 					},
 					'year' => {
-						'1' => q(yr),
+						'name' => q(yr),
 						'one' => q({0}y),
 						'other' => q({0}y),
 					},
 				},
 				'short' => {
 					'acre' => {
-						'1' => q(acres),
+						'name' => q(acres),
 						'one' => q({0} ac),
 						'other' => q({0} ac),
 					},
 					'acre-foot' => {
-						'1' => q(acre ft),
+						'name' => q(acre ft),
 						'one' => q({0} ac ft),
 						'other' => q({0} ac ft),
 					},
 					'ampere' => {
-						'1' => q(amps),
+						'name' => q(amps),
 						'one' => q({0} A),
 						'other' => q({0} A),
 					},
 					'arc-minute' => {
-						'1' => q(arcmins),
+						'name' => q(arcmins),
 						'one' => q({0} arcmin),
 						'other' => q({0} arcmins),
 					},
 					'arc-second' => {
-						'1' => q(arcsecs),
+						'name' => q(arcsecs),
 						'one' => q({0} arcsec),
 						'other' => q({0} arcsecs),
 					},
 					'astronomical-unit' => {
-						'1' => q(au),
+						'name' => q(au),
 						'one' => q({0} au),
 						'other' => q({0} au),
 					},
 					'bit' => {
-						'1' => q(bit),
+						'name' => q(bit),
 						'one' => q({0} bit),
 						'other' => q({0} bit),
 					},
 					'bushel' => {
-						'1' => q(bushels),
+						'name' => q(bushels),
 						'one' => q({0} bu),
 						'other' => q({0} bu),
 					},
 					'byte' => {
-						'1' => q(byte),
+						'name' => q(byte),
 						'one' => q({0} byte),
 						'other' => q({0} byte),
 					},
 					'calorie' => {
-						'1' => q(cal),
+						'name' => q(cal),
 						'one' => q({0} cal),
 						'other' => q({0} cal),
 					},
 					'carat' => {
-						'1' => q(carats),
+						'name' => q(carats),
 						'one' => q({0} CD),
 						'other' => q({0} CD),
 					},
 					'celsius' => {
-						'1' => q(deg. C),
+						'name' => q(deg. C),
 						'one' => q({0}°C),
 						'other' => q({0}°C),
 					},
 					'centiliter' => {
-						'1' => q(cL),
+						'name' => q(cL),
 						'one' => q({0} cL),
 						'other' => q({0} cL),
 					},
 					'centimeter' => {
-						'1' => q(cm),
+						'name' => q(cm),
 						'one' => q({0} cm),
 						'other' => q({0} cm),
 					},
 					'cubic-centimeter' => {
-						'1' => q(cm³),
+						'name' => q(cm³),
 						'one' => q({0} cm³),
 						'other' => q({0} cm³),
 					},
 					'cubic-foot' => {
-						'1' => q(feet³),
+						'name' => q(feet³),
 						'one' => q({0} ft³),
 						'other' => q({0} ft³),
 					},
 					'cubic-inch' => {
-						'1' => q(inches³),
+						'name' => q(inches³),
 						'one' => q({0} in³),
 						'other' => q({0} in³),
 					},
 					'cubic-kilometer' => {
-						'1' => q(km³),
+						'name' => q(km³),
 						'one' => q({0} km³),
 						'other' => q({0} km³),
 					},
 					'cubic-meter' => {
-						'1' => q(m³),
+						'name' => q(m³),
 						'one' => q({0} m³),
 						'other' => q({0} m³),
 					},
 					'cubic-mile' => {
-						'1' => q(mi³),
+						'name' => q(mi³),
 						'one' => q({0} mi³),
 						'other' => q({0} mi³),
 					},
 					'cubic-yard' => {
-						'1' => q(yards³),
+						'name' => q(yards³),
 						'one' => q({0} yd³),
 						'other' => q({0} yd³),
 					},
 					'cup' => {
-						'1' => q(cups),
+						'name' => q(cups),
 						'one' => q({0} c),
 						'other' => q({0} c),
 					},
 					'day' => {
-						'1' => q(days),
+						'name' => q(days),
 						'one' => q({0} day),
 						'other' => q({0} days),
 					},
 					'deciliter' => {
-						'1' => q(dL),
+						'name' => q(dL),
 						'one' => q({0} dL),
 						'other' => q({0} dL),
 					},
 					'decimeter' => {
-						'1' => q(dm),
+						'name' => q(dm),
 						'one' => q({0} dm),
 						'other' => q({0} dm),
 					},
 					'degree' => {
-						'1' => q(degrees),
+						'name' => q(degrees),
 						'one' => q({0} deg),
 						'other' => q({0} deg),
 					},
 					'fahrenheit' => {
-						'1' => q(deg. F),
+						'name' => q(deg. F),
 						'one' => q({0}°F),
 						'other' => q({0}°F),
 					},
 					'fathom' => {
-						'1' => q(fathoms),
+						'name' => q(fathoms),
 						'one' => q({0} ftm),
 						'other' => q({0} ftm),
 					},
 					'fluid-ounce' => {
-						'1' => q(fl oz),
+						'name' => q(fl oz),
 						'one' => q({0} fl oz),
 						'other' => q({0} fl oz),
 					},
 					'foodcalorie' => {
-						'1' => q(Cal),
+						'name' => q(Cal),
 						'one' => q({0} Cal),
 						'other' => q({0} Cal),
 					},
 					'foot' => {
-						'1' => q(feet),
+						'name' => q(feet),
 						'one' => q({0} ft),
 						'other' => q({0} ft),
 					},
 					'furlong' => {
-						'1' => q(furlongs),
+						'name' => q(furlongs),
 						'one' => q({0} fur),
 						'other' => q({0} fur),
 					},
 					'g-force' => {
-						'1' => q(g-force),
+						'name' => q(g-force),
 						'one' => q({0} G),
 						'other' => q({0} G),
 					},
 					'gallon' => {
-						'1' => q(gal),
+						'name' => q(gal),
 						'one' => q({0} gal),
 						'other' => q({0} gal),
 					},
 					'gigabit' => {
-						'1' => q(Gbit),
+						'name' => q(Gbit),
 						'one' => q({0} Gb),
 						'other' => q({0} Gb),
 					},
 					'gigabyte' => {
-						'1' => q(GByte),
+						'name' => q(GByte),
 						'one' => q({0} GB),
 						'other' => q({0} GB),
 					},
 					'gigahertz' => {
-						'1' => q(GHz),
+						'name' => q(GHz),
 						'one' => q({0} GHz),
 						'other' => q({0} GHz),
 					},
 					'gigawatt' => {
-						'1' => q(GW),
+						'name' => q(GW),
 						'one' => q({0} GW),
 						'other' => q({0} GW),
 					},
 					'gram' => {
-						'1' => q(grams),
+						'name' => q(grams),
 						'one' => q({0} g),
 						'other' => q({0} g),
 					},
 					'hectare' => {
-						'1' => q(hectares),
+						'name' => q(hectares),
 						'one' => q({0} ha),
 						'other' => q({0} ha),
 					},
 					'hectoliter' => {
-						'1' => q(hL),
+						'name' => q(hL),
 						'one' => q({0} hL),
 						'other' => q({0} hL),
 					},
 					'hectopascal' => {
-						'1' => q(hPa),
+						'name' => q(hPa),
 						'one' => q({0} hPa),
 						'other' => q({0} hPa),
 					},
 					'hertz' => {
-						'1' => q(Hz),
+						'name' => q(Hz),
 						'one' => q({0} Hz),
 						'other' => q({0} Hz),
 					},
 					'horsepower' => {
-						'1' => q(hp),
+						'name' => q(hp),
 						'one' => q({0} hp),
 						'other' => q({0} hp),
 					},
 					'hour' => {
-						'1' => q({0}ph),
+						'name' => q(hours),
 						'one' => q({0} hr),
 						'other' => q({0} hrs),
+						'per' => q({0}ph),
 					},
 					'inch' => {
-						'1' => q(inches),
+						'name' => q(inches),
 						'one' => q({0} in),
 						'other' => q({0} in),
 					},
 					'inch-hg' => {
-						'1' => q(in Hg),
+						'name' => q(in Hg),
 						'one' => q({0} inHg),
 						'other' => q({0} inHg),
 					},
 					'joule' => {
-						'1' => q(joules),
+						'name' => q(joules),
 						'one' => q({0} J),
 						'other' => q({0} J),
 					},
 					'karat' => {
-						'1' => q(karats),
+						'name' => q(karats),
 						'one' => q({0} kt),
 						'other' => q({0} kt),
 					},
 					'kelvin' => {
-						'1' => q(K),
+						'name' => q(K),
 						'one' => q({0} K),
 						'other' => q({0} K),
 					},
 					'kilobit' => {
-						'1' => q(kbit),
+						'name' => q(kbit),
 						'one' => q({0} kb),
 						'other' => q({0} kb),
 					},
 					'kilobyte' => {
-						'1' => q(kByte),
+						'name' => q(kByte),
 						'one' => q({0} kB),
 						'other' => q({0} kB),
 					},
 					'kilocalorie' => {
-						'1' => q(kcal),
+						'name' => q(kcal),
 						'one' => q({0} kcal),
 						'other' => q({0} kcal),
 					},
 					'kilogram' => {
-						'1' => q(kg),
+						'name' => q(kg),
 						'one' => q({0} kg),
 						'other' => q({0} kg),
 					},
 					'kilohertz' => {
-						'1' => q(kHz),
+						'name' => q(kHz),
 						'one' => q({0} kHz),
 						'other' => q({0} kHz),
 					},
 					'kilojoule' => {
-						'1' => q(kilojoule),
+						'name' => q(kilojoule),
 						'one' => q({0} kJ),
 						'other' => q({0} kJ),
 					},
 					'kilometer' => {
-						'1' => q(km),
+						'name' => q(km),
 						'one' => q({0} km),
 						'other' => q({0} km),
 					},
 					'kilometer-per-hour' => {
-						'1' => q(km/hour),
+						'name' => q(km/hour),
 						'one' => q({0} kph),
 						'other' => q({0} kph),
 					},
 					'kilowatt' => {
-						'1' => q(kW),
+						'name' => q(kW),
 						'one' => q({0} kW),
 						'other' => q({0} kW),
 					},
 					'kilowatt-hour' => {
-						'1' => q(kW-hour),
+						'name' => q(kW-hour),
 						'one' => q({0} kWh),
 						'other' => q({0} kWh),
 					},
 					'light-year' => {
-						'1' => q(light yrs),
+						'name' => q(light yrs),
 						'one' => q({0} ly),
 						'other' => q({0} ly),
 					},
 					'liter' => {
-						'1' => q(liters),
+						'name' => q(liters),
 						'one' => q({0} L),
 						'other' => q({0} L),
 					},
 					'liter-per-kilometer' => {
-						'1' => q(liters/km),
+						'name' => q(liters/km),
 						'one' => q({0} L/km),
 						'other' => q({0} L/km),
 					},
 					'lux' => {
-						'1' => q(lux),
+						'name' => q(lux),
 						'one' => q({0} lx),
 						'other' => q({0} lx),
 					},
 					'megabit' => {
-						'1' => q(Mbit),
+						'name' => q(Mbit),
 						'one' => q({0} Mb),
 						'other' => q({0} Mb),
 					},
 					'megabyte' => {
-						'1' => q(MByte),
+						'name' => q(MByte),
 						'one' => q({0} MB),
 						'other' => q({0} MB),
 					},
 					'megahertz' => {
-						'1' => q(MHz),
+						'name' => q(MHz),
 						'one' => q({0} MHz),
 						'other' => q({0} MHz),
 					},
 					'megaliter' => {
-						'1' => q(ML),
+						'name' => q(ML),
 						'one' => q({0} ML),
 						'other' => q({0} ML),
 					},
 					'megawatt' => {
-						'1' => q(MW),
+						'name' => q(MW),
 						'one' => q({0} MW),
 						'other' => q({0} MW),
 					},
 					'meter' => {
-						'1' => q(meters),
+						'name' => q(meters),
 						'one' => q({0} m),
 						'other' => q({0} m),
 					},
 					'meter-per-second' => {
-						'1' => q(meters/sec),
+						'name' => q(meters/sec),
 						'one' => q({0} m/s),
 						'other' => q({0} m/s),
 					},
 					'meter-per-second-squared' => {
-						'1' => q(meters/sec²),
+						'name' => q(meters/sec²),
 						'one' => q({0} m/s²),
 						'other' => q({0} m/s²),
 					},
 					'metric-ton' => {
-						'1' => q(t),
+						'name' => q(t),
 						'one' => q({0} t),
 						'other' => q({0} t),
 					},
 					'microgram' => {
-						'1' => q(µg),
+						'name' => q(µg),
 						'one' => q({0} µg),
 						'other' => q({0} µg),
 					},
 					'micrometer' => {
-						'1' => q(µmeters),
+						'name' => q(µmeters),
 						'one' => q({0} µm),
 						'other' => q({0} µm),
 					},
 					'microsecond' => {
-						'1' => q(μsecs),
+						'name' => q(μsecs),
 						'one' => q({0} μs),
 						'other' => q({0} μs),
 					},
 					'mile' => {
-						'1' => q(miles),
+						'name' => q(miles),
 						'one' => q({0} mi),
 						'other' => q({0} mi),
 					},
 					'mile-per-gallon' => {
-						'1' => q(miles/gal),
+						'name' => q(miles/gal),
 						'one' => q({0} mpg),
 						'other' => q({0} mpg),
 					},
 					'mile-per-hour' => {
-						'1' => q(miles/hour),
+						'name' => q(miles/hour),
 						'one' => q({0} mph),
 						'other' => q({0} mph),
 					},
 					'milliampere' => {
-						'1' => q(milliamps),
+						'name' => q(milliamps),
 						'one' => q({0} mA),
 						'other' => q({0} mA),
 					},
 					'millibar' => {
-						'1' => q(mbar),
+						'name' => q(mbar),
 						'one' => q({0} mbar),
 						'other' => q({0} mbar),
 					},
 					'milligram' => {
-						'1' => q(mg),
+						'name' => q(mg),
 						'one' => q({0} mg),
 						'other' => q({0} mg),
 					},
 					'milliliter' => {
-						'1' => q(mL),
+						'name' => q(mL),
 						'one' => q({0} mL),
 						'other' => q({0} mL),
 					},
 					'millimeter' => {
-						'1' => q(mm),
+						'name' => q(mm),
 						'one' => q({0} mm),
 						'other' => q({0} mm),
 					},
 					'millimeter-of-mercury' => {
-						'1' => q(mm Hg),
+						'name' => q(mm Hg),
 						'one' => q({0} mm Hg),
 						'other' => q({0} mm Hg),
 					},
 					'millisecond' => {
-						'1' => q(millisecs),
+						'name' => q(millisecs),
 						'one' => q({0} ms),
 						'other' => q({0} ms),
 					},
 					'milliwatt' => {
-						'1' => q(mW),
+						'name' => q(mW),
 						'one' => q({0} mW),
 						'other' => q({0} mW),
 					},
 					'minute' => {
-						'1' => q(mins),
+						'name' => q(mins),
 						'one' => q({0} min),
 						'other' => q({0} mins),
 					},
 					'month' => {
-						'1' => q(months),
+						'name' => q(months),
 						'one' => q({0} mth),
 						'other' => q({0} mths),
 					},
 					'nanometer' => {
-						'1' => q(nm),
+						'name' => q(nm),
 						'one' => q({0} nm),
 						'other' => q({0} nm),
 					},
 					'nanosecond' => {
-						'1' => q(nanosecs),
+						'name' => q(nanosecs),
 						'one' => q({0} ns),
 						'other' => q({0} ns),
 					},
 					'nautical-mile' => {
-						'1' => q(nmi),
+						'name' => q(nmi),
 						'one' => q({0} nmi),
 						'other' => q({0} nmi),
 					},
 					'ohm' => {
-						'1' => q(ohms),
+						'name' => q(ohms),
 						'one' => q({0} Ω),
 						'other' => q({0} Ω),
 					},
 					'ounce' => {
-						'1' => q(oz),
+						'name' => q(oz),
 						'one' => q({0} oz),
 						'other' => q({0} oz),
 					},
 					'ounce-troy' => {
-						'1' => q(oz troy),
+						'name' => q(oz troy),
 						'one' => q({0} oz t),
 						'other' => q({0} oz t),
 					},
 					'parsec' => {
-						'1' => q(parsecs),
+						'name' => q(parsecs),
 						'one' => q({0} pc),
 						'other' => q({0} pc),
 					},
 					'per' => {
-						'1' => q({0}/{1}),
+						'' => q({0}/{1}),
 					},
 					'picometer' => {
-						'1' => q(pm),
+						'name' => q(pm),
 						'one' => q({0} pm),
 						'other' => q({0} pm),
 					},
 					'pint' => {
-						'1' => q(pints),
+						'name' => q(pints),
 						'one' => q({0} pt),
 						'other' => q({0} pt),
 					},
 					'pound' => {
-						'1' => q(pounds),
+						'name' => q(pounds),
 						'one' => q({0} lb),
 						'other' => q({0} lb),
 					},
 					'pound-per-square-inch' => {
-						'1' => q(psi),
+						'name' => q(psi),
 						'one' => q({0} psi),
 						'other' => q({0} psi),
 					},
 					'quart' => {
-						'1' => q(qts),
+						'name' => q(qts),
 						'one' => q({0} qt),
 						'other' => q({0} qt),
 					},
 					'radian' => {
-						'1' => q(radians),
+						'name' => q(radians),
 						'one' => q({0} rad),
 						'other' => q({0} rad),
 					},
 					'second' => {
-						'1' => q({0}ps),
+						'name' => q(secs),
 						'one' => q({0} sec),
 						'other' => q({0} secs),
+						'per' => q({0}ps),
 					},
 					'square-centimeter' => {
-						'1' => q(cm²),
+						'name' => q(cm²),
 						'one' => q({0} cm²),
 						'other' => q({0} cm²),
 					},
 					'square-foot' => {
-						'1' => q(sq feet),
+						'name' => q(sq feet),
 						'one' => q({0} sq ft),
 						'other' => q({0} sq ft),
 					},
 					'square-inch' => {
-						'1' => q(inches²),
+						'name' => q(inches²),
 						'one' => q({0} in²),
 						'other' => q({0} in²),
 					},
 					'square-kilometer' => {
-						'1' => q(km²),
+						'name' => q(km²),
 						'one' => q({0} km²),
 						'other' => q({0} km²),
 					},
 					'square-meter' => {
-						'1' => q(meters²),
+						'name' => q(meters²),
 						'one' => q({0} m²),
 						'other' => q({0} m²),
 					},
 					'square-mile' => {
-						'1' => q(sq miles),
+						'name' => q(sq miles),
 						'one' => q({0} sq mi),
 						'other' => q({0} sq mi),
 					},
 					'square-yard' => {
-						'1' => q(yards²),
+						'name' => q(yards²),
 						'one' => q({0} yd²),
 						'other' => q({0} yd²),
 					},
 					'stone' => {
-						'1' => q(stones),
+						'name' => q(stones),
 						'one' => q({0} st),
 						'other' => q({0} st),
 					},
 					'tablespoon' => {
-						'1' => q(tbsp),
+						'name' => q(tbsp),
 						'one' => q({0} tbsp),
 						'other' => q({0} tbsp),
 					},
 					'teaspoon' => {
-						'1' => q(tsp),
+						'name' => q(tsp),
 						'one' => q({0} tsp),
 						'other' => q({0} tsp),
 					},
 					'terabit' => {
-						'1' => q(Tbit),
+						'name' => q(Tbit),
 						'one' => q({0} Tb),
 						'other' => q({0} Tb),
 					},
 					'terabyte' => {
-						'1' => q(TByte),
+						'name' => q(TByte),
 						'one' => q({0} TB),
 						'other' => q({0} TB),
 					},
 					'ton' => {
-						'1' => q(tons),
+						'name' => q(tons),
 						'one' => q({0} tn),
 						'other' => q({0} tn),
 					},
 					'volt' => {
-						'1' => q(volts),
+						'name' => q(volts),
 						'one' => q({0} V),
 						'other' => q({0} V),
 					},
 					'watt' => {
-						'1' => q(watts),
+						'name' => q(watts),
 						'one' => q({0} W),
 						'other' => q({0} W),
 					},
 					'week' => {
-						'1' => q(weeks),
+						'name' => q(weeks),
 						'one' => q({0} wk),
 						'other' => q({0} wks),
 					},
 					'yard' => {
-						'1' => q(yards),
+						'name' => q(yards),
 						'one' => q({0} yd),
 						'other' => q({0} yd),
 					},
 					'year' => {
-						'1' => q(years),
+						'name' => q(years),
 						'one' => q({0} yr),
 						'other' => q({0} yrs),
 					},
@@ -6741,68 +6747,68 @@ has 'day_period_data' => (
 		my ($self, $type, $time) = @_;
 		SWITCH:
 		for ($type) {
-			if ($_ eq 'roc') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
 			if ($_ eq 'hebrew') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
-			if ($_ eq 'islamic') {
 				return 'am' if $time >= 000
 					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
-			if ($_ eq 'generic') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'japanese') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
-			if ($_ eq 'gregorian') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
+			if ($_ eq 'roc') {
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'buddhist') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'chinese') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'islamic') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'generic') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'gregorian') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 		}
@@ -6816,15 +6822,15 @@ has 'day_periods' => (
 	default		=> sub { {
 		'gregorian' => {
 			'format' => {
-				'narrow' => {
-					'pm' => q{p},
-					'noon' => q{n},
-					'am' => q{a},
-				},
 				'wide' => {
 					'pm' => q{pm},
 					'noon' => q{noon},
 					'am' => q{am},
+				},
+				'narrow' => {
+					'pm' => q{p},
+					'noon' => q{n},
+					'am' => q{a},
 				},
 			},
 		},
@@ -6993,6 +6999,98 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
+		'generic' => {
+			E => q{ccc},
+			EHm => q{E HH:mm},
+			EHms => q{E HH:mm:ss},
+			Ed => q{d E},
+			Ehm => q{E h:mm a},
+			Ehms => q{E h:mm:ss a},
+			Gy => q{y G},
+			GyMMM => q{MMM y G},
+			GyMMMEd => q{E, MMM d, y G},
+			GyMMMd => q{MMM d, y G},
+			H => q{HH},
+			Hm => q{HH:mm},
+			Hms => q{HH:mm:ss},
+			M => q{L},
+			MEd => q{E, M/d},
+			MMM => q{LLL},
+			MMMEd => q{E, MMM d},
+			MMMd => q{MMM d},
+			Md => q{M/d},
+			d => q{d},
+			h => q{h a},
+			hm => q{h:mm a},
+			hms => q{h:mm:ss a},
+			ms => q{mm:ss},
+			y => q{y G},
+			yyyy => q{y G},
+			yyyyM => q{M/y GGGGG},
+			yyyyMEd => q{E, M/d/y GGGGG},
+			yyyyMMM => q{MMM y G},
+			yyyyMMMEd => q{E, MMM d, y G},
+			yyyyMMMd => q{MMM d, y G},
+			yyyyMd => q{M/d/y GGGGG},
+			yyyyQQQ => q{QQQ y G},
+			yyyyQQQQ => q{QQQQ y G},
+		},
+		'gregorian' => {
+			E => q{ccc},
+			EHm => q{E HH:mm},
+			EHms => q{E HH:mm:ss},
+			Ed => q{d E},
+			Ehm => q{E h:mm a},
+			Ehms => q{E h:mm:ss a},
+			Gy => q{y G},
+			GyMMM => q{MMM y G},
+			GyMMMEd => q{E, MMM d, y G},
+			GyMMMd => q{MMM d, y G},
+			H => q{HH},
+			Hm => q{HH:mm},
+			Hms => q{HH:mm:ss},
+			M => q{L},
+			MEd => q{E, M/d},
+			MMM => q{LLL},
+			MMMEd => q{E, MMM d},
+			MMMd => q{MMM d},
+			Md => q{M/d},
+			d => q{d},
+			h => q{h a},
+			hm => q{h:mm a},
+			hms => q{h:mm:ss a},
+			ms => q{mm:ss},
+			y => q{y},
+			yM => q{M/y},
+			yMEd => q{E, M/d/y},
+			yMMM => q{MMM y},
+			yMMMEd => q{E, MMM d, y},
+			yMMMd => q{MMM d, y},
+			yMd => q{M/d/y},
+			yQQQ => q{QQQ y},
+			yQQQQ => q{QQQQ y},
+		},
+		'hebrew' => {
+			Gy => q{y G},
+			GyMMM => q{MMM y G},
+			GyMMMEd => q{E, d MMM y G},
+			GyMMMd => q{d MMM y G},
+			M => q{L},
+			MEd => q{E, d MMM},
+			MMM => q{LLL},
+			MMMEd => q{E, d MMM},
+			MMMd => q{d MMM},
+			Md => q{d MMM},
+			y => q{y},
+			yM => q{MMM y},
+			yMEd => q{E, d MMM y},
+			yMMM => q{MMM y},
+			yMMMEd => q{E, d MMM y},
+			yMMMd => q{d MMM y},
+			yMd => q{d MMM y},
+			yQQQ => q{QQQ y},
+			yQQQQ => q{QQQQ y},
+		},
 		'chinese' => {
 			E => q{ccc},
 			EHm => q{E HH:mm},
@@ -7030,98 +7128,6 @@ has 'datetime_formats_available_formats' => (
 			yyyyQQQ => q{QQQ U},
 			yyyyQQQQ => q{QQQQ U},
 		},
-		'gregorian' => {
-			E => q{ccc},
-			EHm => q{E HH:mm},
-			EHms => q{E HH:mm:ss},
-			Ed => q{d E},
-			Ehm => q{E h:mm a},
-			Ehms => q{E h:mm:ss a},
-			Gy => q{y G},
-			GyMMM => q{MMM y G},
-			GyMMMEd => q{E, MMM d, y G},
-			GyMMMd => q{MMM d, y G},
-			H => q{HH},
-			Hm => q{HH:mm},
-			Hms => q{HH:mm:ss},
-			M => q{L},
-			MEd => q{E, M/d},
-			MMM => q{LLL},
-			MMMEd => q{E, MMM d},
-			MMMd => q{MMM d},
-			Md => q{M/d},
-			d => q{d},
-			h => q{h a},
-			hm => q{h:mm a},
-			hms => q{h:mm:ss a},
-			ms => q{mm:ss},
-			y => q{y},
-			yM => q{M/y},
-			yMEd => q{E, M/d/y},
-			yMMM => q{MMM y},
-			yMMMEd => q{E, MMM d, y},
-			yMMMd => q{MMM d, y},
-			yMd => q{M/d/y},
-			yQQQ => q{QQQ y},
-			yQQQQ => q{QQQQ y},
-		},
-		'generic' => {
-			E => q{ccc},
-			EHm => q{E HH:mm},
-			EHms => q{E HH:mm:ss},
-			Ed => q{d E},
-			Ehm => q{E h:mm a},
-			Ehms => q{E h:mm:ss a},
-			Gy => q{y G},
-			GyMMM => q{MMM y G},
-			GyMMMEd => q{E, MMM d, y G},
-			GyMMMd => q{MMM d, y G},
-			H => q{HH},
-			Hm => q{HH:mm},
-			Hms => q{HH:mm:ss},
-			M => q{L},
-			MEd => q{E, M/d},
-			MMM => q{LLL},
-			MMMEd => q{E, MMM d},
-			MMMd => q{MMM d},
-			Md => q{M/d},
-			d => q{d},
-			h => q{h a},
-			hm => q{h:mm a},
-			hms => q{h:mm:ss a},
-			ms => q{mm:ss},
-			y => q{y G},
-			yyyy => q{y G},
-			yyyyM => q{M/y GGGGG},
-			yyyyMEd => q{E, M/d/y GGGGG},
-			yyyyMMM => q{MMM y G},
-			yyyyMMMEd => q{E, MMM d, y G},
-			yyyyMMMd => q{MMM d, y G},
-			yyyyMd => q{M/d/y GGGGG},
-			yyyyQQQ => q{QQQ y G},
-			yyyyQQQQ => q{QQQQ y G},
-		},
-		'hebrew' => {
-			Gy => q{y G},
-			GyMMM => q{MMM y G},
-			GyMMMEd => q{E, d MMM y G},
-			GyMMMd => q{d MMM y G},
-			M => q{L},
-			MEd => q{E, d MMM},
-			MMM => q{LLL},
-			MMMEd => q{E, d MMM},
-			MMMd => q{d MMM},
-			Md => q{d MMM},
-			y => q{y},
-			yM => q{MMM y},
-			yMEd => q{E, d MMM y},
-			yMMM => q{MMM y},
-			yMMMEd => q{E, d MMM y},
-			yMMMd => q{d MMM y},
-			yMd => q{d MMM y},
-			yQQQ => q{QQQ y},
-			yQQQQ => q{QQQQ y},
-		},
 	} },
 );
 
@@ -7130,7 +7136,7 @@ has 'datetime_formats_append_item' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'gregorian' => {
+		'generic' => {
 			'Day' => '{0} ({2}: {1})',
 			'Day-Of-Week' => '{0} {1}',
 			'Era' => '{0} {1}',
@@ -7143,7 +7149,7 @@ has 'datetime_formats_append_item' => (
 			'Week' => '{0} ({2}: {1})',
 			'Year' => '{0} {1}',
 		},
-		'generic' => {
+		'gregorian' => {
 			'Day' => '{0} ({2}: {1})',
 			'Day-Of-Week' => '{0} {1}',
 			'Era' => '{0} {1}',
@@ -7164,7 +7170,7 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'chinese' => {
+		'generic' => {
 			H => {
 				H => q{HH – HH},
 			},
@@ -7224,39 +7230,39 @@ has 'datetime_formats_interval' => (
 				h => q{h – h a v},
 			},
 			y => {
-				y => q{U – U},
+				y => q{y – y G},
 			},
 			yM => {
-				M => q{M/y – M/y},
-				y => q{M/y – M/y},
+				M => q{M/y – M/y GGGGG},
+				y => q{M/y – M/y GGGGG},
 			},
 			yMEd => {
-				M => q{E, M/d/y – E, M/d/y},
-				d => q{E, M/d/y – E, M/d/y},
-				y => q{E, M/d/y – E, M/d/y},
+				M => q{E, M/d/y – E, M/d/y GGGGG},
+				d => q{E, M/d/y – E, M/d/y GGGGG},
+				y => q{E, M/d/y – E, M/d/y GGGGG},
 			},
 			yMMM => {
-				M => q{MMM – MMM U},
-				y => q{MMM U – MMM U},
+				M => q{MMM – MMM y G},
+				y => q{MMM y – MMM y G},
 			},
 			yMMMEd => {
-				M => q{E, MMM d – E, MMM d, U},
-				d => q{E, MMM d – E, MMM d, U},
-				y => q{E, MMM d, U – E, MMM d, U},
+				M => q{E, MMM d – E, MMM d, y G},
+				d => q{E, MMM d – E, MMM d, y G},
+				y => q{E, MMM d, y – E, MMM d, y G},
 			},
 			yMMMM => {
-				M => q{MMMM – MMMM U},
-				y => q{MMMM U – MMMM U},
+				M => q{MMMM – MMMM y G},
+				y => q{MMMM y – MMMM y G},
 			},
 			yMMMd => {
-				M => q{MMM d – MMM d, U},
-				d => q{MMM d – d, U},
-				y => q{MMM d, U – MMM d, U},
+				M => q{MMM d – MMM d, y G},
+				d => q{MMM d – d, y G},
+				y => q{MMM d, y – MMM d, y G},
 			},
 			yMd => {
-				M => q{M/d/y – M/d/y},
-				d => q{M/d/y – M/d/y},
-				y => q{M/d/y – M/d/y},
+				M => q{M/d/y – M/d/y GGGGG},
+				d => q{M/d/y – M/d/y GGGGG},
+				y => q{M/d/y – M/d/y GGGGG},
 			},
 		},
 		'gregorian' => {
@@ -7354,7 +7360,66 @@ has 'datetime_formats_interval' => (
 				y => q{M/d/y – M/d/y},
 			},
 		},
-		'generic' => {
+		'hebrew' => {
+			M => {
+				M => q{MMM – MMM},
+			},
+			MEd => {
+				M => q{E, d MMM – E, d MMM},
+				d => q{E, d MMM – E, d MMM},
+			},
+			MMM => {
+				M => q{MMM – MMM},
+			},
+			MMMEd => {
+				M => q{E, d MMM – E, d MMM},
+				d => q{E, d MMM – E, d MMM},
+			},
+			MMMd => {
+				M => q{d MMM – d MMM},
+				d => q{d – d MMM},
+			},
+			Md => {
+				M => q{d MMM – d MMM},
+				d => q{d – d MMM},
+			},
+			y => {
+				y => q{y – y G},
+			},
+			yM => {
+				M => q{MMM – MMM y},
+				y => q{MMM y – MMM y},
+			},
+			yMEd => {
+				M => q{E, d MMM – E, d MMM y},
+				d => q{E, d MMM – E, d MMM y},
+				y => q{E, d MMM y – E, d MMM y},
+			},
+			yMMM => {
+				M => q{MMM – MMM y},
+				y => q{MMM y – MMM y},
+			},
+			yMMMEd => {
+				M => q{E, d MMM – E, d MMM y},
+				d => q{E, d MMM – E, d MMM y},
+				y => q{E, d MMM y – E, d MMM y},
+			},
+			yMMMM => {
+				M => q{MMMM – MMMM y},
+				y => q{MMMM y – MMMM y},
+			},
+			yMMMd => {
+				M => q{d MMM – d MMM y},
+				d => q{d – d MMM y},
+				y => q{d MMM y – d MMM y},
+			},
+			yMd => {
+				M => q{d MMM – d MMM y},
+				d => q{d – d MMM y},
+				y => q{d MMM y – d MMM y},
+			},
+		},
+		'chinese' => {
 			H => {
 				H => q{HH – HH},
 			},
@@ -7414,98 +7479,39 @@ has 'datetime_formats_interval' => (
 				h => q{h – h a v},
 			},
 			y => {
-				y => q{y – y G},
+				y => q{U – U},
 			},
 			yM => {
-				M => q{M/y – M/y GGGGG},
-				y => q{M/y – M/y GGGGG},
+				M => q{M/y – M/y},
+				y => q{M/y – M/y},
 			},
 			yMEd => {
-				M => q{E, M/d/y – E, M/d/y GGGGG},
-				d => q{E, M/d/y – E, M/d/y GGGGG},
-				y => q{E, M/d/y – E, M/d/y GGGGG},
+				M => q{E, M/d/y – E, M/d/y},
+				d => q{E, M/d/y – E, M/d/y},
+				y => q{E, M/d/y – E, M/d/y},
 			},
 			yMMM => {
-				M => q{MMM – MMM y G},
-				y => q{MMM y – MMM y G},
+				M => q{MMM – MMM U},
+				y => q{MMM U – MMM U},
 			},
 			yMMMEd => {
-				M => q{E, MMM d – E, MMM d, y G},
-				d => q{E, MMM d – E, MMM d, y G},
-				y => q{E, MMM d, y – E, MMM d, y G},
+				M => q{E, MMM d – E, MMM d, U},
+				d => q{E, MMM d – E, MMM d, U},
+				y => q{E, MMM d, U – E, MMM d, U},
 			},
 			yMMMM => {
-				M => q{MMMM – MMMM y G},
-				y => q{MMMM y – MMMM y G},
+				M => q{MMMM – MMMM U},
+				y => q{MMMM U – MMMM U},
 			},
 			yMMMd => {
-				M => q{MMM d – MMM d, y G},
-				d => q{MMM d – d, y G},
-				y => q{MMM d, y – MMM d, y G},
+				M => q{MMM d – MMM d, U},
+				d => q{MMM d – d, U},
+				y => q{MMM d, U – MMM d, U},
 			},
 			yMd => {
-				M => q{M/d/y – M/d/y GGGGG},
-				d => q{M/d/y – M/d/y GGGGG},
-				y => q{M/d/y – M/d/y GGGGG},
-			},
-		},
-		'hebrew' => {
-			M => {
-				M => q{MMM – MMM},
-			},
-			MEd => {
-				M => q{E, d MMM – E, d MMM},
-				d => q{E, d MMM – E, d MMM},
-			},
-			MMM => {
-				M => q{MMM – MMM},
-			},
-			MMMEd => {
-				M => q{E, d MMM – E, d MMM},
-				d => q{E, d MMM – E, d MMM},
-			},
-			MMMd => {
-				M => q{d MMM – d MMM},
-				d => q{d – d MMM},
-			},
-			Md => {
-				M => q{d MMM – d MMM},
-				d => q{d – d MMM},
-			},
-			y => {
-				y => q{y – y G},
-			},
-			yM => {
-				M => q{MMM – MMM y},
-				y => q{MMM y – MMM y},
-			},
-			yMEd => {
-				M => q{E, d MMM – E, d MMM y},
-				d => q{E, d MMM – E, d MMM y},
-				y => q{E, d MMM y – E, d MMM y},
-			},
-			yMMM => {
-				M => q{MMM – MMM y},
-				y => q{MMM y – MMM y},
-			},
-			yMMMEd => {
-				M => q{E, d MMM – E, d MMM y},
-				d => q{E, d MMM – E, d MMM y},
-				y => q{E, d MMM y – E, d MMM y},
-			},
-			yMMMM => {
-				M => q{MMMM – MMMM y},
-				y => q{MMMM y – MMMM y},
-			},
-			yMMMd => {
-				M => q{d MMM – d MMM y},
-				d => q{d – d MMM y},
-				y => q{d MMM y – d MMM y},
-			},
-			yMd => {
-				M => q{d MMM – d MMM y},
-				d => q{d – d MMM y},
-				y => q{d MMM y – d MMM y},
+				M => q{M/d/y – M/d/y},
+				d => q{M/d/y – M/d/y},
+				y => q{M/d/y – M/d/y},
 			},
 		},
 	} },

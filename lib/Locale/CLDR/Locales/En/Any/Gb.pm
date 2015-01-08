@@ -6,12 +6,12 @@ Locale::CLDR::Locales::En::Any::Gb - Package for language English
 
 package Locale::CLDR::Locales::En::Any::Gb;
 # This file auto generated from Data\common\main\en_GB.xml
-#	on Tue 30 Dec  9:43:37 pm GMT
+#	on Tue  6 Jan 10:03:04 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';
@@ -160,127 +160,127 @@ has 'units' => (
 	default		=> sub { {
 				'long' => {
 					'centiliter' => {
-						'1' => q(centilitres),
+						'name' => q(centilitres),
 						'one' => q({0} centilitre),
 						'other' => q({0} centilitres),
 					},
 					'centimeter' => {
-						'1' => q(centimetres),
+						'name' => q(centimetres),
 						'one' => q({0} centimetre),
 						'other' => q({0} centimetres),
 					},
 					'cubic-centimeter' => {
-						'1' => q(cubic centimetres),
+						'name' => q(cubic centimetres),
 						'one' => q({0} cubic centimetre),
 						'other' => q({0} cubic centimetres),
 					},
 					'cubic-kilometer' => {
-						'1' => q(cubic kilometres),
+						'name' => q(cubic kilometres),
 						'one' => q({0} cubic kilometre),
 						'other' => q({0} cubic kilometres),
 					},
 					'cubic-meter' => {
-						'1' => q(cubic metres),
+						'name' => q(cubic metres),
 						'one' => q({0} cubic metre),
 						'other' => q({0} cubic metres),
 					},
 					'deciliter' => {
-						'1' => q(decilitres),
+						'name' => q(decilitres),
 						'one' => q({0} decilitre),
 						'other' => q({0} decilitres),
 					},
 					'decimeter' => {
-						'1' => q(decimetre),
+						'name' => q(decimetre),
 						'one' => q({0} decimetre),
 						'other' => q({0} decimetres),
 					},
 					'hectoliter' => {
-						'1' => q(hectolitres),
+						'name' => q(hectolitres),
 						'one' => q({0} hectolitre),
 						'other' => q({0} hectolitres),
 					},
 					'kilometer' => {
-						'1' => q(kilometres),
+						'name' => q(kilometres),
 						'one' => q({0} kilometre),
 						'other' => q({0} kilometres),
 					},
 					'kilometer-per-hour' => {
-						'1' => q(kilometres per hour),
+						'name' => q(kilometres per hour),
 						'one' => q({0} kilometre per hour),
 						'other' => q({0} kilometres per hour),
 					},
 					'liter' => {
-						'1' => q(litres),
+						'name' => q(litres),
 						'one' => q({0} litre),
 						'other' => q({0} litres),
 					},
 					'liter-per-kilometer' => {
-						'1' => q(litres per kilometre),
+						'name' => q(litres per kilometre),
 						'one' => q({0} litre per kilometre),
 						'other' => q({0} litres per kilometre),
 					},
 					'megaliter' => {
-						'1' => q(megalitres),
+						'name' => q(megalitres),
 						'one' => q({0} megalitre),
 						'other' => q({0} megalitres),
 					},
 					'meter' => {
-						'1' => q(metres),
+						'name' => q(metres),
 						'one' => q({0} metre),
 						'other' => q({0} metres),
 					},
 					'meter-per-second' => {
-						'1' => q(metres per second),
+						'name' => q(metres per second),
 						'one' => q({0} metre per second),
 						'other' => q({0} metres per second),
 					},
 					'meter-per-second-squared' => {
-						'1' => q(metres per second squared),
+						'name' => q(metres per second squared),
 						'one' => q({0} metre per second squared),
 						'other' => q({0} metres per second squared),
 					},
 					'micrometer' => {
-						'1' => q(micrometre),
+						'name' => q(micrometre),
 						'one' => q({0} micrometre),
 						'other' => q({0} micrometres),
 					},
 					'milliliter' => {
-						'1' => q(millilitres),
+						'name' => q(millilitres),
 						'one' => q({0} millilitre),
 						'other' => q({0} millilitres),
 					},
 					'millimeter' => {
-						'1' => q(millimetres),
+						'name' => q(millimetres),
 						'one' => q({0} millimetre),
 						'other' => q({0} millimetres),
 					},
 					'millimeter-of-mercury' => {
-						'1' => q(millimetres of mercury),
+						'name' => q(millimetres of mercury),
 						'one' => q({0} millimetre of mercury),
 						'other' => q({0} millimetres of mercury),
 					},
 					'nanometer' => {
-						'1' => q(nanometres),
+						'name' => q(nanometres),
 						'one' => q({0} nanometre),
 						'other' => q({0} nanometres),
 					},
 					'picometer' => {
-						'1' => q(picometres),
+						'name' => q(picometres),
 						'one' => q({0} picometre),
 						'other' => q({0} picometres),
 					},
 					'square-centimeter' => {
-						'1' => q(square centimetres),
+						'name' => q(square centimetres),
 						'one' => q({0} square centimetre),
 						'other' => q({0} square centimetres),
 					},
 					'square-kilometer' => {
-						'1' => q(square kilometres),
+						'name' => q(square kilometres),
 						'one' => q({0} square kilometre),
 						'other' => q({0} square kilometres),
 					},
 					'square-meter' => {
-						'1' => q(square metres),
+						'name' => q(square metres),
 						'one' => q({0} square metre),
 						'other' => q({0} square metres),
 					},
@@ -295,7 +295,7 @@ has 'units' => (
 						'other' => q({0}" Hg),
 					},
 					'liter' => {
-						'1' => q(litre),
+						'name' => q(litre),
 					},
 					'pound' => {
 						'one' => q({0}lb),
@@ -304,31 +304,31 @@ has 'units' => (
 				},
 				'short' => {
 					'centimeter' => {
-						'1' => q(centimetres),
+						'name' => q(centimetres),
 					},
 					'fathom' => {
 						'one' => q({0} fm),
 						'other' => q({0} fm),
 					},
 					'kilometer-per-hour' => {
-						'1' => q(kilometres per hour),
+						'name' => q(kilometres per hour),
 					},
 					'liter' => {
-						'1' => q(litres),
+						'name' => q(litres),
 						'one' => q({0} l),
 						'other' => q({0} l),
 					},
 					'liter-per-kilometer' => {
-						'1' => q(litres/km),
+						'name' => q(litres/km),
 					},
 					'meter' => {
-						'1' => q(metres),
+						'name' => q(metres),
 					},
 					'meter-per-second' => {
-						'1' => q(metres per second),
+						'name' => q(metres per second),
 					},
 					'meter-per-second-squared' => {
-						'1' => q(metres/sec²),
+						'name' => q(metres/sec²),
 					},
 				},
 			} }
@@ -355,6 +355,24 @@ has native_numbering_system => (
 	isa			=> 'Str',
 	init_arg	=> undef,
 	default		=> 'latn',
+);
+
+has 'minimum_grouping_digits' => (
+	is			=>'ro',
+	isa			=> 'Int',
+	init_arg	=> undef,
+	default		=> 1,
+);
+
+has 'number_symbols' => (
+	is			=> 'ro',
+	isa			=> 'HashRef',
+	init_arg	=> undef,
+	default		=> sub { {
+		'latn' => {
+			'timeSeparator' => q(:),
+		},
+	} }
 );
 
 has 'curriencies' => (
@@ -1469,52 +1487,52 @@ has 'day_period_data' => (
 		my ($self, $type, $time) = @_;
 		SWITCH:
 		for ($type) {
-			if ($_ eq 'gregorian') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
+			if ($_ eq 'japanese') {
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
-			if ($_ eq 'islamic') {
 				return 'am' if $time >= 000
 					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
-			if ($_ eq 'indian') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'chinese') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
-			last SWITCH;
-			}
-			if ($_ eq 'japanese') {
 				return 'am' if $time >= 000
 					&& $time < 1200;
-				return 'pm' if $time > 1200
-					&& $time < 2400;
-				return 'noon' if $time == 1200;
 			last SWITCH;
 			}
 			if ($_ eq 'generic') {
-				return 'am' if $time >= 000
-					&& $time < 1200;
 				return 'pm' if $time > 1200
 					&& $time < 2400;
 				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'indian') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'gregorian') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
+			last SWITCH;
+			}
+			if ($_ eq 'islamic') {
+				return 'pm' if $time > 1200
+					&& $time < 2400;
+				return 'noon' if $time == 1200;
+				return 'am' if $time >= 000
+					&& $time < 1200;
 			last SWITCH;
 			}
 		}
@@ -1657,7 +1675,7 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'islamic' => {
+		'generic' => {
 			Ed => q{E d},
 			GyMMMEd => q{E, d MMM y G},
 			GyMMMd => q{d MMM y G},
@@ -1673,22 +1691,6 @@ has 'datetime_formats_available_formats' => (
 			yyyyMMMM => q{MMMM y G},
 			yyyyMMMd => q{d MMM y G},
 			yyyyMd => q{dd/MM/y GGGGG},
-		},
-		'gregorian' => {
-			GyMMMEd => q{E, d MMM y G},
-			GyMMMd => q{d MMM y G},
-			MEd => q{E dd/MM},
-			MMMEd => q{E d MMM},
-			MMMMd => q{d MMMM},
-			MMMd => q{d MMM},
-			MMdd => q{dd/MM},
-			Md => q{dd/MM},
-			yM => q{MM/y},
-			yMEd => q{E, dd/MM/y},
-			yMMMEd => q{E, d MMM y},
-			yMMMM => q{MMMM y},
-			yMMMd => q{d MMM y},
-			yMd => q{dd/MM/y},
 		},
 		'chinese' => {
 			Ed => q{E d},
@@ -1708,7 +1710,23 @@ has 'datetime_formats_available_formats' => (
 			yyyyMMMd => q{d MMM U},
 			yyyyMd => q{dd/MM/y},
 		},
-		'generic' => {
+		'gregorian' => {
+			GyMMMEd => q{E, d MMM y G},
+			GyMMMd => q{d MMM y G},
+			MEd => q{E dd/MM},
+			MMMEd => q{E d MMM},
+			MMMMd => q{d MMMM},
+			MMMd => q{d MMM},
+			MMdd => q{dd/MM},
+			Md => q{dd/MM},
+			yM => q{MM/y},
+			yMEd => q{E, dd/MM/y},
+			yMMMEd => q{E, d MMM y},
+			yMMMM => q{MMMM y},
+			yMMMd => q{d MMM y},
+			yMd => q{dd/MM/y},
+		},
+		'islamic' => {
 			Ed => q{E d},
 			GyMMMEd => q{E, d MMM y G},
 			GyMMMd => q{d MMM y G},
@@ -1741,7 +1759,7 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'gregorian' => {
+		'generic' => {
 			H => {
 				H => q{HH–HH},
 			},
@@ -1796,37 +1814,37 @@ has 'datetime_formats_interval' => (
 				h => q{h–h a v},
 			},
 			y => {
-				y => q{y-y},
+				y => q{y-y G},
 			},
 			yM => {
-				M => q{MM/y – MM/y},
-				y => q{MM/y – MM/y},
+				M => q{MM/y – MM/y GGGGG},
+				y => q{MM/y – MM/y GGGGG},
 			},
 			yMEd => {
-				M => q{E, dd/MM/y – E, dd/MM/y},
-				d => q{E, dd/MM/y – E, dd/MM/y},
-				y => q{E, dd/MM/y – E, dd/MM/y},
+				M => q{E, dd/MM/y – E, dd/MM/y GGGGG},
+				d => q{E, dd/MM/y – E, dd/MM/y GGGGG},
+				y => q{E, dd/MM/y – E, dd/MM/y GGGGG},
 			},
 			yMMM => {
-				M => q{MMM–MMM y},
+				M => q{MMM–MMM y G},
 			},
 			yMMMEd => {
-				M => q{E, d MMM – E, d MMM y},
-				d => q{E, d – E, d MMM y},
-				y => q{E, d MMM y – E, d MMM y},
+				M => q{E, d MMM – E, d MMM y G},
+				d => q{E, d – E, d MMM y G},
+				y => q{E, d MMM y – E, d MMM y G},
 			},
 			yMMMM => {
-				M => q{MMMM–MMMM y},
+				M => q{MMMM–MMMM y G},
 			},
 			yMMMd => {
-				M => q{d MMM – d MMM y},
-				d => q{d–d MMM y},
-				y => q{d MMM y – d MMM y},
+				M => q{d MMM – d MMM y G},
+				d => q{d–d MMM y G},
+				y => q{d MMM y – d MMM y G},
 			},
 			yMd => {
-				M => q{dd/MM/y – dd/MM/y},
-				d => q{dd/MM/y – dd/MM/y},
-				y => q{dd/MM/y – dd/MM/y},
+				M => q{dd/MM/y – dd/MM/y GGGGG},
+				d => q{dd/MM/y – dd/MM/y GGGGG},
+				y => q{dd/MM/y – dd/MM/y GGGGG},
 			},
 		},
 		'chinese' => {
@@ -1917,7 +1935,7 @@ has 'datetime_formats_interval' => (
 				y => q{dd/MM/y – dd/MM/y},
 			},
 		},
-		'generic' => {
+		'gregorian' => {
 			H => {
 				H => q{HH–HH},
 			},
@@ -1972,37 +1990,37 @@ has 'datetime_formats_interval' => (
 				h => q{h–h a v},
 			},
 			y => {
-				y => q{y-y G},
+				y => q{y-y},
 			},
 			yM => {
-				M => q{MM/y – MM/y GGGGG},
-				y => q{MM/y – MM/y GGGGG},
+				M => q{MM/y – MM/y},
+				y => q{MM/y – MM/y},
 			},
 			yMEd => {
-				M => q{E, dd/MM/y – E, dd/MM/y GGGGG},
-				d => q{E, dd/MM/y – E, dd/MM/y GGGGG},
-				y => q{E, dd/MM/y – E, dd/MM/y GGGGG},
+				M => q{E, dd/MM/y – E, dd/MM/y},
+				d => q{E, dd/MM/y – E, dd/MM/y},
+				y => q{E, dd/MM/y – E, dd/MM/y},
 			},
 			yMMM => {
-				M => q{MMM–MMM y G},
+				M => q{MMM–MMM y},
 			},
 			yMMMEd => {
-				M => q{E, d MMM – E, d MMM y G},
-				d => q{E, d – E, d MMM y G},
-				y => q{E, d MMM y – E, d MMM y G},
+				M => q{E, d MMM – E, d MMM y},
+				d => q{E, d – E, d MMM y},
+				y => q{E, d MMM y – E, d MMM y},
 			},
 			yMMMM => {
-				M => q{MMMM–MMMM y G},
+				M => q{MMMM–MMMM y},
 			},
 			yMMMd => {
-				M => q{d MMM – d MMM y G},
-				d => q{d–d MMM y G},
-				y => q{d MMM y – d MMM y G},
+				M => q{d MMM – d MMM y},
+				d => q{d–d MMM y},
+				y => q{d MMM y – d MMM y},
 			},
 			yMd => {
-				M => q{dd/MM/y – dd/MM/y GGGGG},
-				d => q{dd/MM/y – dd/MM/y GGGGG},
-				y => q{dd/MM/y – dd/MM/y GGGGG},
+				M => q{dd/MM/y – dd/MM/y},
+				d => q{dd/MM/y – dd/MM/y},
+				y => q{dd/MM/y – dd/MM/y},
 			},
 		},
 	} },
